@@ -1,6 +1,8 @@
 #emacs
 *~
 build
+cmake-build-debug
+.idea
 # Prerequisites
 *.d
 
