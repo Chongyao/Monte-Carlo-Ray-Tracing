@@ -31,9 +31,7 @@ int main(int argc, char** argv){
   for(auto& one_shape : shapes){
     cout << one_shape.name << endl;
     size_t num_tris = one_shape.mesh.material_ids.size();
-    for(size_t i = 0; i < num_tris; ++i){
-      // p1  << attrib.vertices[one_shape.mesh.indices[i*3].vertex_index] << 
-    }
+    cout << num_tris << endl;
   }
 
   return 0;

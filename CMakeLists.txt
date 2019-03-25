@@ -26,9 +26,15 @@ SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 FILE(GLOB source src/*.cpp)
 FILE(GLOB header src/*.h)
-set(tracer_exe src/main.cc)
-set(test_aabb_exe src/test/test_aabb.cc)
 
-ADD_EXECUTABLE(tracer ${tracer_exe} ${source})
-ADD_EXECUTABLE(test_aabb ${test_aabb_exe} ${source} )
-TARGET_LINK_LIBRARIES(tracer)
+
+
+ADD_LIBRARY(MC_Source ${source})
+
+
+ADD_EXECUTABLE(test_aabb src/test/test_aabb.cc )
+target_link_libraries(test_aabb MC_Source)
+
+ADD_EXECUTABLE(test_model src/test/test_model.cc)
+target_link_libraries(test_model MC_Source)
+
