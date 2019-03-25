@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -g    -rdynamic CMakeFiles/tracer.dir/src/main.cc.o CMakeFiles/tracer.dir/src/aabb.cpp.o CMakeFiles/tracer.dir/src/kd_tree.cpp.o  -o bin/tracer 
