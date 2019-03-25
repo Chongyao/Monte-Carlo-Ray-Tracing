@@ -1,4 +1,0 @@
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-debug/CMakeFiles/tracer.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-debug/CMakeFiles/test_aabb.dir

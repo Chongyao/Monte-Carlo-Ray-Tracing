@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -g    -rdynamic CMakeFiles/test_aabb.dir/src/test/test_aabb.cc.o CMakeFiles/test_aabb.dir/src/aabb.cpp.o CMakeFiles/test_aabb.dir/src/kd_tree.cpp.o  -o bin/test_aabb 
