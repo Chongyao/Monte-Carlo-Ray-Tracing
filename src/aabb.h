@@ -4,7 +4,7 @@
 #include <memory>
 #include <vector>
 using vec = Eigen::Vector3d;
-
+using tri = Eigen::Matrix3d;
 class aabb{
  public:
   aabb(const vec& low_bd = vec::Zero(), const vec& up_bd = vec::Zero());
@@ -19,6 +19,7 @@ class tri_aabb : public aabb{
   double a_, b_, c_, d_;
   vec center;
   tri_aabb(const size_t& id, const vec& p1, const vec& p2, const vec& p3);
+  tri_aabb(const size_t& id, const tri& plane);
   tri_aabb(){}
 };
 
