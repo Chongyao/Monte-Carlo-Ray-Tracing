@@ -38,3 +38,5 @@ target_link_libraries(test_aabb MC_Source)
 ADD_EXECUTABLE(test_model src/test/test_model.cc)
 target_link_libraries(test_model MC_Source)
 
+ADD_EXECUTABLE(test_kdtree src/test/test_kdtree.cc)
+target_link_libraries(test_kdtree MC_Source)
