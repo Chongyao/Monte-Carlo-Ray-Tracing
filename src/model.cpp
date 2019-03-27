@@ -1,6 +1,7 @@
 #include "model.h"
 #define TINYOBJLOADER_IMPLEMENTATION
 #include "tiny_obj_loader.h"
+
 using namespace std;
 Model::Model(){
   tris_.clear();
@@ -39,7 +40,7 @@ int Scene::build_models(const vector<tinyobj::real_t> &pts, const vector<tinyobj
     size_t num_tris = shapes[m_id].mesh.indices.size() / 3;
     models[m_id]->tris_.resize(num_tris);
     
-#pragma omp parallel for
+    //#pragma omp parallel for
     for(size_t face_id = 0; face_id < num_tris; ++face_id){
       vector<size_t> vert_id(3);
       tri p, n;
@@ -50,7 +51,8 @@ int Scene::build_models(const vector<tinyobj::real_t> &pts, const vector<tinyobj
       }
       for(size_t v_id = 0; v_id < 3; ++v_id){
         for(size_t dim = 0; dim < 3; ++dim){
-          p(dim, v_id) = pts[vert_id[dim] + dim];
+          p(dim, v_id) = pts[vert_id[v_id] + dim];
+
         }
       }
 
@@ -62,7 +64,7 @@ int Scene::build_models(const vector<tinyobj::real_t> &pts, const vector<tinyobj
       }
       for(size_t v_id = 0; v_id < 3; ++v_id){
         for(size_t dim = 0; dim < 3; ++dim){
-          n(dim, v_id) = vns[vert_id[dim] + dim];
+          n(dim, v_id) = vns[vert_id[v_id] + dim];
         }
       }
      

@@ -7,6 +7,7 @@ using vec = Eigen::Vector3d;
 class Ray{
  public:
   vec origin_, dire_;
+  double final_offset_;
   Ray(const vec& orgin = vec::Zero(), const vec& dire = vec::Zero());
   bool intersect(const std::unique_ptr<KD_tree_tris>& kd, size_t& face_id, vec& cross_point);
  private:

@@ -8,6 +8,7 @@ using tri = Eigen::Matrix3d;
 class aabb{
  public:
   aabb(const vec& low_bd = vec::Zero(), const vec& up_bd = vec::Zero());
+  aabb(const aabb& other);
   vec low_bd_;
   vec up_bd_;
   void merge(const aabb& other);
