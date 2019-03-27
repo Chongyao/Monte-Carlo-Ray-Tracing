@@ -11,7 +11,7 @@
 
 
 using tri = Eigen::Matrix3d;
-
+using vec = Eigen::Vector3d;
 class Triangle{
  public:
   tri p_, n_;
@@ -41,4 +41,7 @@ class Scene{
 
   
 };
+
+
+
 #endif

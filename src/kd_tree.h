@@ -13,5 +13,7 @@ class KD_tree_tris{
   
 };
 
+// size_t intersect(const Ray& ray, const unique_ptr<KD_tree_tris>& kd);
+
 
 #endif

@@ -40,3 +40,6 @@ target_link_libraries(test_model MC_Source)
 
 ADD_EXECUTABLE(test_kdtree src/test/test_kdtree.cc)
 target_link_libraries(test_kdtree MC_Source)
+
+ADD_EXECUTABLE(test_ray src/test/test_ray.cc)
+target_link_libraries(test_ray MC_Source)
