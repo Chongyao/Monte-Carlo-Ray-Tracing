@@ -16,8 +16,10 @@ class aabb{
 class tri_aabb : public aabb{
  public:
   size_t id_;
-  double a_, b_, c_, d_;
+  vec normal_;
+  double d_;
   vec center;
+  tri p_;
   tri_aabb(const size_t& id, const vec& p1, const vec& p2, const vec& p3);
   tri_aabb(const size_t& id, const tri& plane);
   tri_aabb(){}

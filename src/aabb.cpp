@@ -17,6 +17,9 @@ void aabb::merge(const aabb& other){
 }
 
 tri_aabb::tri_aabb(const size_t& id, const vec& p1, const vec& p2, const vec& p3):id_(id){
+  p_.col(0) = p1;
+  p_.col(1) = p2;
+  p_.col(2) = p3;
   id_ = id;
   low_bd_ = p1;
   up_bd_ = p2;
@@ -35,22 +38,21 @@ tri_aabb::tri_aabb(const size_t& id, const vec& p1, const vec& p2, const vec& p3
   center = (p1 + p2 + p3) / 3.0;
   
   
-  a_ = (p2(1) - p1(1)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(1) - p1(1));
-  b_ = (p2(0) - p1(0)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(0) - p1(0));
-  c_ = (p2(0) - p1(0)) * (p3(1) - p1(1)) - (p2(1) - p1(2)) * (p3(0) - p1(0));
+  normal_(0) = (p2(1) - p1(1)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(1) - p1(1));
+  normal_(1) = (p2(0) - p1(0)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(0) - p1(0));
+  normal_(2) = (p2(0) - p1(0)) * (p3(1) - p1(1)) - (p2(1) - p1(2)) * (p3(0) - p1(0));
 
-  double norm = sqrt(a_*a_ + b_*b_ + c_*c_);
-  if(norm > 1e-6 ){
-    a_ /= norm;
-    b_ /= norm;
-    c_ /= norm;
-  }else{
-    a_ = 0;b_ = 0;c_ = 0;
-  }
-  d_ = - (a_ * p1(0) + b_ * p1(1) + c_ * p1(2));
+  double norm  = normal_.norm();
+  if(norm > 1e-6)
+    normal_ = normal_ / norm;
+  else
+    normal_ = vec::Zero();
+  d_ = -normal_.dot(p1) ;
+
 }
 tri_aabb::tri_aabb(const size_t& id, const tri& plane){
   id_ = id;
+  p_ = plane;
   vec p1 = plane.col(0), p2 = plane.col(1), p3 = plane.col(2);
   low_bd_ = p1;
   up_bd_ = p2;
@@ -68,27 +70,22 @@ tri_aabb::tri_aabb(const size_t& id, const tri& plane){
 
   center = (p1 + p2 + p3) / 3.0;
   
-  
-  a_ = (p2(1) - p1(1)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(1) - p1(1));
-  b_ = (p2(0) - p1(0)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(0) - p1(0));
-  c_ = (p2(0) - p1(0)) * (p3(1) - p1(1)) - (p2(1) - p1(2)) * (p3(0) - p1(0));
+  normal_(0) = (p2(1) - p1(1)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(1) - p1(1));
+  normal_(1) = (p2(0) - p1(0)) * (p3(2) - p1(2)) - (p2(2) - p1(2)) * (p3(0) - p1(0));
+  normal_(2) = (p2(0) - p1(0)) * (p3(1) - p1(1)) - (p2(1) - p1(2)) * (p3(0) - p1(0));
 
-  double norm = sqrt(a_*a_ + b_*b_ + c_*c_);
-  if(norm > 1e-6 ){
-    a_ /= norm;
-    b_ /= norm;
-    c_ /= norm;
-  }else{
-    a_ = 0;b_ = 0;c_ = 0;
-  }
-  d_ = - (a_ * p1(0) + b_ * p1(1) + c_ * p1(2));
+  double norm  = normal_.norm();
+  if(norm > 1e-6)
+    normal_ = normal_ / norm;
+  else
+    normal_ = vec::Zero();
+  d_ = -normal_.dot(p1) ;
 }
 
 
 aabb merge_tri_aabbs(const std::vector<std::shared_ptr<tri_aabb>> tri_aabbs){
   if(tri_aabbs.empty())
     throw runtime_error("tri_aabbs is empty");
-
   aabb bd_box(tri_aabbs[0]->low_bd_, tri_aabbs[0]->up_bd_);
   for(auto& one_bdbox : tri_aabbs){
     bd_box.merge(*one_bdbox);

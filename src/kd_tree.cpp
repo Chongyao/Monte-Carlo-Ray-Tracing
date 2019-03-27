@@ -45,3 +45,6 @@ KD_tree_tris::KD_tree_tris(vector<shared_ptr<tri_aabb>>& childrens, const size_t
     right_tree_ = unique_ptr<KD_tree_tris>(new KD_tree_tris(right_childrens, height - 1, (dim + 1) % 3, right_bdbox_ptr));
   }
 }
+
+
+
