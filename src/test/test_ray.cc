@@ -11,7 +11,7 @@ int main(int argc, char** argv){
   size_t num_model = scene.models.size();
   cout << "num model is "<< num_model << endl;
   vector<unique_ptr<KD_tree_tris>> KD_forest(num_model);
-  //#pragma omp parallel for
+  #pragma omp parallel for
   for(size_t m_id = 0; m_id < num_model; ++m_id){
     size_t num_tris = scene.models[m_id]->tris_.size();
     vector<shared_ptr<tri_aabb>> childrens(num_tris);
@@ -20,7 +20,6 @@ int main(int argc, char** argv){
       childrens[f_id] = std::move(make_shared<tri_aabb>(f_id, scene.models[m_id]->tris_[f_id].p_));
     }
     KD_forest[m_id] = unique_ptr<KD_tree_tris>(new KD_tree_tris(childrens, height, 0, nullptr, true));
-    // cout << "bd box :" << endl << KD_forest[m_id]->bd_box_.low_bd_ << endl << KD_forest[m_id]->bd_box_.up_bd_ << endl;
   }
   cout<<"KD forest sizes" << KD_forest.size() << endl;
   //#pragma omp parallel for  
@@ -33,11 +32,7 @@ int main(int argc, char** argv){
     Ray one_ray(origin, dire);
     size_t face_id;
     vec cross_point = vec::Zero();
-    for(size_t m_id = 0; m_id < num_model; ++m_id){
-      cout << one_ray.intersect(KD_forest[m_id], face_id, cross_point) << endl;
-      
-    }
-
+    one_ray.intersect_forest(KD_forest, face_id, cross_point);
     cout << one_ray.final_offset_ << endl;
     
   }

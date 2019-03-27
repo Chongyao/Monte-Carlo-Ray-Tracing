@@ -152,3 +152,14 @@ bool Ray::intersect(const unique_ptr<KD_tree_tris>& kd, size_t& face_id, vec& cr
     return false;
   }
 }
+
+bool Ray::intersect_forest(const vector<unique_ptr<KD_tree_tris>>& KD_forest, size_t& face_id, vec& cross_point){
+  size_t num_model = KD_forest.size();
+  bool is_inter = false;
+  for(size_t m_id = 0; m_id < num_model; ++m_id){
+    if(intersect(KD_forest[m_id], face_id, cross_point))
+      is_inter = true;
+  }
+  return is_inter;
+  
+}

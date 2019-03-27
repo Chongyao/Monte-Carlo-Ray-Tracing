@@ -11,7 +11,11 @@ bool test_kd_tree(const KD_tree_tris* kd){
   for(size_t i = 0; i < num_children; ++i){
     for(size_t j = 0; j < 3; ++j){
       assert(kd->child_[i]->low_bd_(j) >= kd->bd_box_.low_bd_(j));
+      if(kd->child_[i]->up_bd_(j) > kd->bd_box_.up_bd_(j)){
+        cout << kd->child_[i]->up_bd_ << endl << kd->bd_box_.up_bd_;
+      }
       assert(kd->child_[i]->up_bd_(j) <= kd->bd_box_.up_bd_(j));
+
     }
   }
 

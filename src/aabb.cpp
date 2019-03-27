@@ -16,8 +16,15 @@ void aabb::merge(const aabb& other){
   for(size_t i = 0; i < 3; ++i){
     if(low_bd_(i) > other.low_bd_(i))
       low_bd_(i) = other.low_bd_(i);
-    else if(up_bd_(i) < other.up_bd_(i))
+    if(up_bd_(i) < other.up_bd_(i))
       up_bd_(i) = other.up_bd_(i);
+  }
+
+  {//check
+    for(size_t i = 0; i < 3; ++i){
+      assert(low_bd_(i) <= other.low_bd_(i));
+      assert(up_bd_(i) >= other.up_bd_(i));
+    }
   }
 }
 
@@ -66,12 +73,12 @@ tri_aabb::tri_aabb(const size_t& id, const tri& plane){
   for(size_t i = 0; i < 3; ++i){
     if(low_bd_(i) > p2(i))
       low_bd_(i) = p2(i);
-    else if (up_bd_(i) < p2(i))
+    if (up_bd_(i) < p2(i))
       up_bd_(i) = p2(i);
 
     if(low_bd_(i) > p3(i))
       low_bd_(i) = p3(i);
-    else if (up_bd_(i) < p3(i))
+    if (up_bd_(i) < p3(i))
       up_bd_(i) = p3(i);
   }
 
@@ -94,9 +101,30 @@ tri_aabb::tri_aabb(const size_t& id, const tri& plane){
 aabb merge_tri_aabbs(const std::vector<std::shared_ptr<tri_aabb>> tri_aabbs){
   if(tri_aabbs.empty())
     throw runtime_error("tri_aabbs is empty");
+
+  bool bk =false;
+  if(tri_aabbs.size() == 90)
+    bk = true;
+  size_t num = 0;
   aabb bd_box(tri_aabbs[0]->low_bd_, tri_aabbs[0]->up_bd_);
   for(auto& one_bdbox : tri_aabbs){
     bd_box.merge(*one_bdbox);
+    ++num;
   }
+
+
+
+  {//check
+    for(size_t i = 0; i < tri_aabbs.size(); ++i){
+      for(size_t j = 0; j < 3; ++j){
+        assert(tri_aabbs[i]->low_bd_(j) >= bd_box.low_bd_(j));
+        assert(tri_aabbs[i]->up_bd_(j) <= bd_box.up_bd_(j));
+
+      }
+    }
+    
+  }
+
+  
   return bd_box;
 }
