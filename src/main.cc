@@ -1,3 +1,7 @@
+#define EIGEN_USE_BLAS
+#define NDEBUG
+
+
 #include <Eigen/Dense>
 
 #include "ray.h"
@@ -12,7 +16,9 @@
 using namespace std;
 using namespace Eigen;
 using vec = Eigen::Vector3d;
+
 vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
+
   
   size_t mtl_id;   // id of material of intersected triangle
   Ray next;     // intersection point and normal
@@ -34,28 +40,26 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   set_value(mtl.specular, ff);
   set_value(mtl.emission, em);
   set_value(mtl.ambient, ambient);
-  // copy(f.data(), f.data() + 3, mtl.diffuse);
-  // copy(ff.data(), ff.data() + 3, mtl.specular);
-  // copy(em.data(), em.data() + 3, mtl.emission);
-  // copy(ambient.data(), ambient.data() + 3, mtl.ambient);
   ke = em+ ambient;  // TODO: now ka is ke
- 
+
 
 
   double p = f.maxCoeff() ;// max refl
   double pp = ff.maxCoeff(); // max refl
   double mp = max(p, pp);
-
   bool checkke = ke(0) != 0 && ke(1) != 0 && ke(2) != 0 ;
 
   if (ke(0) != 0 && ke(1) != 0 && ke(2) != 0) //find light
     return ke;
+  
 
   // FIXME: there is a bug that causes infinite recursive loop when mp = 1.
   if (++depth > 5)
     if (erand48(Xi) < mp) // Russian roulette
       f = f * (1 / mp);
-    else return ke;
+    else 
+      return ke; 
+    
 
   const vec nl = n.dot(r.dire_) < 0 ? n : n * -1;
 
@@ -86,6 +90,7 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
       res = radiance(reflRay, depth, Xi, scene, KD_forest) * Re +
           radiance(Ray(x, tdir), depth, Xi, scene, KD_forest) * Tr;
     }
+
     return ke + res;
 
   }
@@ -113,12 +118,15 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
       if (dir.dot(nl) < 0)
         dir = w;
 
-      return ke + vec(ff.array() * radiance(Ray(x, dir), depth, Xi, scene, KD_forest).array());
+      vec res = vec(ff.array() * radiance(Ray(x, dir), depth, Xi, scene, KD_forest).array());
+      return ke + res;
     }
   }
 
 
   double r1 = 2 * M_PI * erand48(Xi), r2 = erand48(Xi), r2s = sqrt(r2);
+
+
   vec w = nl, u = vec::Zero();{
     if(fabs(w(0)) > .1)
       u(1) = 1;
@@ -131,7 +139,9 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   vec v = w.cross(u);
   vec d = (u * cos(r1) * r2s + v * sin(r1) * r2s + w * sqrt(1 - r2));
   d /= d.norm();
-  return ke + vec(f.array() * radiance(Ray(x, d), depth, Xi, scene, KD_forest).array());
+
+  auto res = vec(f.array() * radiance(Ray(x, d), depth, Xi, scene, KD_forest).array());
+  return ke + res;
 
 
 }
@@ -181,6 +191,7 @@ public:
 };
 
 int main(int argc, char *argv[]) {
+  Eigen::initParallel();
   if (argc < 2) return printf("usage: %s input.obj cam.txt\n", argv[0]);
   const Scene scene(argv[1]);
   const Setting st(argv[2]);
@@ -213,7 +224,7 @@ int main(int argc, char *argv[]) {
     for (int x = 0; x < st.w; x++) {
       // cout << "x is " << x << endl;
       for (int sy = 0, i = (st.h - y - 1) * st.w + x; sy < 2; sy++) { // 2x2 subpixel
-        for (int sx = 0; sx < 2; sx++, r = vec()) {
+        for (int sx = 0; sx < 2; sx++, r = vec::Zero()) {
           for (int s = 1; s <= samps; s++) {
             double r1 = 2 * erand48(Xi), dx = r1 < 1 ? sqrt(r1) - 1 : 1 - sqrt(2 - r1);
             double r2 = 2 * erand48(Xi), dy = r2 < 1 ? sqrt(r2) - 1 : 1 - sqrt(2 - r2);

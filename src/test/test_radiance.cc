@@ -11,20 +11,25 @@
 using namespace std;
 using namespace Eigen;
 using vec = Eigen::Vector3d;
+void print_Vec(const vec& v){
+  cout << v(0) << " " << v(1) << " " << v(2) << endl;
+}
+
+
 
 vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
-  cout << "Xi" << Xi[0] <<Xi[1]<<Xi[2] <<endl;
   cout << endl << endl <<endl;
-  cout << "ray origin is " << endl<< r.origin_ << endl;
-  cout << "dire is "<< endl << r.dire_ << endl;
+  cout << "Xi" << Xi[0] <<" "<<Xi[1] << " " <<Xi[2] <<endl;
+  cout << "ray origin is " << endl<< r.origin_(0) << " "<<r.origin_(1) << " " << r.origin_(2) << endl;
+  cout << "dire is "<< endl << r.dire_(0) << " "<<r.dire_(1)<< " " <<r.dire_(2) << endl;
   
   size_t mtl_id;   // id of material of intersected triangle
   Ray next;     // intersection point and normal
   //TODO: replace with my intersect
   if (!r.intersect_forest(KD_forest, mtl_id, next)) return vec::Zero(); // return blaock
   
-  cout << "next origin is " << endl<< next.origin_ << endl <<"mtl id is " <<mtl_id << endl;
-  cout << "dire is "<< endl << next.dire_ << endl;
+  cout << "origin is " << endl<< next.origin_(0) << " " << next.origin_(1) << " " << next.origin_(2) << endl <<"mtl id is " <<mtl_id << endl;
+  cout << "dire is "<< endl << next.dire_(0) << " "<< next.dire_(1) << " " << next.dire_(2) << endl;
   const tinyobj::material_t &mtl = scene.materials[mtl_id];
   const vec &x = next.origin_;
   const vec &n = next.dire_;
@@ -44,7 +49,7 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   // copy(em.data(), em.data() + 3, mtl.emission);
   // copy(ambient.data(), ambient.data() + 3, mtl.ambient);
   ke = em+ ambient;  // TODO: now ka is ke
- 
+  cout << "ke is " << ke(0) <<" " << ke(1) << " " << ke(2) << endl;
 
 
   double p = f.maxCoeff() ;// max refl
@@ -53,14 +58,21 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   cout<<"mp" << mp << endl;
   bool checkke = ke(0) != 0 && ke(1) != 0 && ke(2) != 0 ;
 
-  if (ke(0) != 0 && ke(1) != 0 && ke(2) != 0) //find light
+  if (ke(0) != 0 && ke(1) != 0 && ke(2) != 0){ //find light
+    cout << "return ke notnull" << endl;
+    print_Vec(ke);
     return ke;
+  }
 
   // FIXME: there is a bug that causes infinite recursive loop when mp = 1.
   if (++depth > 5)
     if (erand48(Xi) < mp) // Russian roulette
       f = f * (1 / mp);
-    else return ke;
+    else {
+      cout << "depth > 5"<< endl;
+      print_Vec(ke);
+     return ke; 
+    }
 
   const vec nl = n.dot(r.dire_) < 0 ? n : n * -1;
 
@@ -91,6 +103,8 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
       res = radiance(reflRay, depth, Xi, scene, KD_forest) * Re +
           radiance(Ray(x, tdir), depth, Xi, scene, KD_forest) * Tr;
     }
+    cout << "dissolve other " << endl;
+    print_Vec(ke + res);
     return ke + res;
 
   }
@@ -118,12 +132,17 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
       if (dir.dot(nl) < 0)
         dir = w;
 
-      return ke + vec(ff.array() * radiance(Ray(x, dir), depth, Xi, scene, KD_forest).array());
+      vec res = vec(ff.array() * radiance(Ray(x, dir), depth, Xi, scene, KD_forest).array());
+      cout << "shininess"<< endl;
+      print_Vec(ke + res);
+      return ke + res;
     }
   }
 
 
   double r1 = 2 * M_PI * erand48(Xi), r2 = erand48(Xi), r2s = sqrt(r2);
+  cout << "rrr" << endl;
+  cout << r1 << " " << r2 << " " << r2s;
   vec w = nl, u = vec::Zero();{
     if(fabs(w(0)) > .1)
       u(1) = 1;
@@ -136,7 +155,10 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   vec v = w.cross(u);
   vec d = (u * cos(r1) * r2s + v * sin(r1) * r2s + w * sqrt(1 - r2));
   d /= d.norm();
-  return ke + vec(f.array() * radiance(Ray(x, d), depth, Xi, scene, KD_forest).array());
+  cout << "final " << endl;
+  auto res = vec(f.array() * radiance(Ray(x, d), depth, Xi, scene, KD_forest).array());
+  print_Vec(ke + res);
+  return ke + res;
 
 
 }
@@ -190,17 +212,17 @@ int main(int argc, char *argv[]) {
   const Setting st(argv[2]);
   const int samps = st.spp / 4;// using 4 subpiexel
 
-  cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;  
+  //cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;
   size_t height = 25;
   size_t num_model = scene.models.size();
-  cout << "num model is "<< num_model << endl;
+  //cout << "num model is "<< num_model << endl;
   vector<unique_ptr<KD_tree_tris>> KD_forest(num_model);
   #pragma omp parallel for
   for(size_t m_id = 0; m_id < num_model; ++m_id){
     KD_forest[m_id] = unique_ptr<KD_tree_tris>(new KD_tree_tris(scene.models[m_id]->tris_, height, 0, nullptr, true));
   }
 
-  cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;
+  //cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;
     
   
   // camera coordinate
@@ -214,17 +236,17 @@ int main(int argc, char *argv[]) {
     unsigned short Xi[3] = {0, 0, y * y * y};
     for (int x = 17; x < 18 ; x++) {
       for (int sy = 0, i = (st.h - y - 1) * st.w + x; sy < 2; sy++) { // 2x2 subpixel
-        for (int sx = 0; sx < 2; sx++, r = vec()) {
+        for (int sx = 0; sx < 2; sx++, r = vec::Zero()) {
           for (int s = 1; s <= samps; s++) {
             double r1 = 2 * erand48(Xi), dx = r1 < 1 ? sqrt(r1) - 1 : 1 - sqrt(2 - r1);
             double r2 = 2 * erand48(Xi), dy = r2 < 1 ? sqrt(r2) - 1 : 1 - sqrt(2 - r2);
             vec d = cx * (((sx + .5 + dx) / 2 + x) / st.w - .5) +
                     cy * (((sy + .5 + dy) / 2 + y) / st.h - .5) + st.cam.dire_;
-            cout << endl<< r1 << " " << r2 << endl << d << endl;
-            d /= d.norm();
 
+            d /= d.norm();
+            cout << "before plus " << endl;print_Vec(r);
             r = r + radiance(Ray(st.cam.origin_, d), 0, Xi, scene, KD_forest) * (1. / samps);
-            cout << "this is r " << endl << r << endl <<endl<< endl;
+            cout << "this is r " << endl << r(0)<< " "<< r(1) << " " << r(2) << endl;
 
           }
           // TODO: check whether we need lock here
