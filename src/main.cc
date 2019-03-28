@@ -1,3 +1,5 @@
+#include <Eigen/Dense>
+
 #include "ray.h"
 #include "model.h"
 
@@ -205,9 +207,11 @@ int main(int argc, char *argv[]) {
 
 #pragma omp parallel for schedule(dynamic, 1) private(r)
   for (int y = 0; y < st.h; y++) {
+    // cout << "y is " << y << endl;
     fprintf(stderr, "\rRendering (%d spp) %5.2f%%", st.spp, 100. * y / (st.h - 1));
     unsigned short Xi[3] = {0, 0, y * y * y};
     for (int x = 0; x < st.w; x++) {
+      // cout << "x is " << x << endl;
       for (int sy = 0, i = (st.h - y - 1) * st.w + x; sy < 2; sy++) { // 2x2 subpixel
         for (int sx = 0; sx < 2; sx++, r = vec()) {
           for (int s = 1; s <= samps; s++) {

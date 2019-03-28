@@ -166,7 +166,6 @@ bool Ray::intersect_forest(const vector<unique_ptr<KD_tree_tris>>& KD_forest, si
   bool is_inter = false;
   for(size_t m_id = 0; m_id < num_model; ++m_id){
     if(intersect(KD_forest[m_id], face_id, next)){
-      cout << "off set : " << final_offset_ << endl;      
       is_inter = true;      
     }
 
@@ -180,7 +179,7 @@ bool Ray::intersect_forest_loop(const std::vector<std::unique_ptr<KD_tree_tris>>
                                 size_t& face_id, Ray& next)const{
   bool is_inter = false;
   for(auto& kd : KD_forest){
-    cout << "num tris is "<< kd->child_.size() << endl;
+
     size_t num_tris = kd->child_.size();
     for(int f_id = num_tris - 1; f_id >=0 ; --f_id){
       if( intersct_tri_aabb(*(kd->child_[f_id]), next)){

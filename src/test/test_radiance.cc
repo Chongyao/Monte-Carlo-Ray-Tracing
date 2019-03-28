@@ -1,3 +1,4 @@
+#include <Eigen/Dense>
 #include "ray.h"
 #include "model.h"
 

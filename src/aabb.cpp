@@ -1,5 +1,6 @@
 #include "aabb.h"
 #include <cmath>
+#include <Eigen/Core>
 #include <Eigen/Geometry>
 using namespace Eigen;
 using namespace std;
