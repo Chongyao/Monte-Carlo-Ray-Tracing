@@ -1,5 +1,4 @@
 #include <Eigen/Dense>
-
 #include "ray.h"
 #include "model.h"
 
@@ -12,14 +11,20 @@
 using namespace std;
 using namespace Eigen;
 using vec = Eigen::Vector3d;
+
 vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
+  cout << "Xi" << Xi[0] <<Xi[1]<<Xi[2] <<endl;
+  cout << endl << endl <<endl;
+  cout << "ray origin is " << endl<< r.origin_ << endl;
+  cout << "dire is "<< endl << r.dire_ << endl;
   
   size_t mtl_id;   // id of material of intersected triangle
   Ray next;     // intersection point and normal
   //TODO: replace with my intersect
   if (!r.intersect_forest(KD_forest, mtl_id, next)) return vec::Zero(); // return blaock
   
-
+  cout << "next origin is " << endl<< next.origin_ << endl <<"mtl id is " <<mtl_id << endl;
+  cout << "dire is "<< endl << next.dire_ << endl;
   const tinyobj::material_t &mtl = scene.materials[mtl_id];
   const vec &x = next.origin_;
   const vec &n = next.dire_;
@@ -45,7 +50,7 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   double p = f.maxCoeff() ;// max refl
   double pp = ff.maxCoeff(); // max refl
   double mp = max(p, pp);
-
+  cout<<"mp" << mp << endl;
   bool checkke = ke(0) != 0 && ke(1) != 0 && ke(2) != 0 ;
 
   if (ke(0) != 0 && ke(1) != 0 && ke(2) != 0) //find light
@@ -60,7 +65,7 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   const vec nl = n.dot(r.dire_) < 0 ? n : n * -1;
 
   if (mtl.dissolve < 1) {                                             // REFRACTION
-
+    cout <<"mtl.dissolve " << endl;
     Ray reflRay(x, r.dire_ - n * 2 * n.dot(r.dire_));
 
     bool into = n.dot(nl) > 0;
@@ -92,7 +97,7 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
 
 
   if (mtl.shininess > 1) { // REFLECTION
-
+    cout <<"mtl.shininess " << endl;
     if (erand48(Xi) < pp / (p + pp)) {// Russian roulette
       double xx = erand48(Xi);
       double yy = erand48(Xi);
@@ -135,7 +140,6 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
 
 
 }
-
 inline double clamp(double x) { return x < 0 ? 0 : x > 1 ? 1 : x; }
 
 inline int toInt(double x) { return int(pow(clamp(x), 1 / 2.2) * 255 + .5); }
@@ -200,18 +204,15 @@ int main(int argc, char *argv[]) {
     
   
   // camera coordinate
-  vec cx = (st.cam.dire_.cross(st.up)) * st.aspect * st.fovy, r;
+  vec cx = (st.cam.dire_.cross(st.up)) * st.aspect * st.fovy, r = vec::Zero();
   vec cy = (cx.cross(st.cam.dire_));
   cy /= cy.norm() * st.fovy;
   vector<vec> c(st.w * st.h);// color buffer
 
-#pragma omp parallel for schedule(dynamic, 1) private(r)
-  for (int y = 0; y < st.h; y++) {
-    // cout << "y is " << y << endl;
+  for (int y = 0; y < 1; y++) {
     fprintf(stderr, "\rRendering (%d spp) %5.2f%%", st.spp, 100. * y / (st.h - 1));
     unsigned short Xi[3] = {0, 0, y * y * y};
-    for (int x = 0; x < st.w; x++) {
-      // cout << "x is " << x << endl;
+    for (int x = 17; x < 18 ; x++) {
       for (int sy = 0, i = (st.h - y - 1) * st.w + x; sy < 2; sy++) { // 2x2 subpixel
         for (int sx = 0; sx < 2; sx++, r = vec()) {
           for (int s = 1; s <= samps; s++) {
@@ -219,8 +220,12 @@ int main(int argc, char *argv[]) {
             double r2 = 2 * erand48(Xi), dy = r2 < 1 ? sqrt(r2) - 1 : 1 - sqrt(2 - r2);
             vec d = cx * (((sx + .5 + dx) / 2 + x) / st.w - .5) +
                     cy * (((sy + .5 + dy) / 2 + y) / st.h - .5) + st.cam.dire_;
+            cout << endl<< r1 << " " << r2 << endl << d << endl;
             d /= d.norm();
+
             r = r + radiance(Ray(st.cam.origin_, d), 0, Xi, scene, KD_forest) * (1. / samps);
+            cout << "this is r " << endl << r << endl <<endl<< endl;
+
           }
           // TODO: check whether we need lock here
           vec delt_c;
@@ -230,6 +235,5 @@ int main(int argc, char *argv[]) {
       }
     }
   }
-  fprintf(stderr, "\n");
-  save_ppm("image.ppm", c, st.w, st.h);
+
 }

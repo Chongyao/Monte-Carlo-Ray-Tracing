@@ -19,14 +19,14 @@ int main(int argc, char** argv){
 
     #pragma omp parallel for
     for(size_t i = 0; i < num_tris; ++i){
-      aabbs[i] = tri_aabb(model_ptr->tris_[i].mtl_id_, model_ptr->tris_[i].p_.col(0),model_ptr->tris_[i].p_.col(1), model_ptr->tris_[i].p_.col(2));
+      aabbs[i] = tri_aabb(model_ptr->tris_[i]->id_, model_ptr->tris_[i]->p_.col(0),model_ptr->tris_[i]->p_.col(1), model_ptr->tris_[i]->p_.col(2));
     }
     #pragma omp parallel for    
     for(size_t i = 0; i < num_tris; ++i){
       for(size_t j = 0; j < 3; ++j){
         for(size_t k = 0; k < 3; ++k){
-          assert(model_ptr->tris_[i].p_(k, j) <= aabbs[i].up_bd_(k) &&
-                 model_ptr->tris_[i].p_(k, j) >= aabbs[i].low_bd_(k));
+          assert(model_ptr->tris_[i]->p_(k, j) <= aabbs[i].up_bd_(k) &&
+                 model_ptr->tris_[i]->p_(k, j) >= aabbs[i].low_bd_(k));
         }
       }
     }

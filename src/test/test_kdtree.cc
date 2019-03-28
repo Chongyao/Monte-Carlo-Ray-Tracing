@@ -11,7 +11,11 @@ bool test_kd_tree(const KD_tree_tris* kd){
   for(size_t i = 0; i < num_children; ++i){
     for(size_t j = 0; j < 3; ++j){
       assert(kd->child_[i]->low_bd_(j) >= kd->bd_box_.low_bd_(j));
+      if(kd->child_[i]->up_bd_(j) > kd->bd_box_.up_bd_(j)){
+        cout << kd->child_[i]->up_bd_ << endl << kd->bd_box_.up_bd_;
+      }
       assert(kd->child_[i]->up_bd_(j) <= kd->bd_box_.up_bd_(j));
+
     }
   }
 
@@ -47,12 +51,7 @@ int main(int argc, char** argv){
   vector<shared_ptr<KD_tree_tris>> KD_forest(num_model);
   //#pragma omp parallel for
   for(size_t m_id = 0; m_id < num_model; ++m_id){
-    size_t num_tris = scene.models[m_id]->tris_.size();
-    vector<shared_ptr<tri_aabb>> childrens(num_tris);
-    cout << "num tris is "<< num_tris << endl;
-    for(size_t f_id = 0; f_id < num_tris; ++f_id){
-      childrens[f_id] = std::move(make_shared<tri_aabb>(f_id, scene.models[m_id]->tris_[f_id].p_));
-    }
+    vector<shared_ptr<tri_aabb>> childrens = scene.models[m_id]->tris_;
     KD_forest[m_id] = make_shared<KD_tree_tris>(childrens, height, 0, nullptr, true);
   }
 

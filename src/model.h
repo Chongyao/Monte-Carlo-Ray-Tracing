@@ -3,7 +3,7 @@
 #include <memory>
 #include <Eigen/Core>
 #include <vector>
-
+#include "aabb.h"
 
 
 #define TINYOBJLOADER_USE_DOUBLE
@@ -22,7 +22,7 @@ class Triangle{
 
 class Model{
  public:
-  std::vector<Triangle> tris_;
+  std::vector<std::shared_ptr<tri_aabb>> tris_;
   Model();
   Model(const size_t& num_tris);
 };
