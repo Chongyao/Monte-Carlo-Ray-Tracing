@@ -10,23 +10,21 @@
 using namespace std;
 using namespace Eigen;
 using vec = Eigen::Vector3d;
-
 vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
   size_t mtl_id;   // id of material of intersected triangle
   Ray next;     // intersection point and normal
   //TODO: replace with my intersect
-  if (!r.intersect_forest(KD_forest, mtl_id, next)) return {}; // return blaock
-
-  // cout << next.origin_ << endl;
+  if (!r.intersect_forest(KD_forest, mtl_id, next)) return vec::Zero(); // return blaock
+  
+  // cout << "next origin is " << endl<< next.origin_ << endl <<"mtl id is " <<mtl_id << endl;
   const tinyobj::material_t &mtl = scene.materials[mtl_id];
   const vec &x = next.origin_;
   const vec &n = next.dire_;
   
   vec f,ff,ke, em, ambient;
-  auto set_value = [](const double v_[], vec& v){
-    for(size_t i = 
-0; i < 3; ++i){
-      v(0) = v_[i];
+  auto set_value = [](const double v_[3], vec& v){
+    for(size_t i = 0; i < 3; ++i){
+      v(i) = v_[i];
     }
   };
   set_value(mtl.diffuse, f);
@@ -44,6 +42,8 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
   double p = f.maxCoeff() ;// max refl
   double pp = ff.maxCoeff(); // max refl
   double mp = max(p, pp);
+  // cout<<"mp" << mp << endl;
+  bool checkke = ke(0) != 0 && ke(1) != 0 && ke(2) != 0 ;
 
   if (ke(0) != 0 && ke(1) != 0 && ke(2) != 0) //find light
     return ke;
@@ -57,6 +57,7 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
   const vec nl = n.dot(r.dire_) < 0 ? n : n * -1;
 
   if (mtl.dissolve < 1) {                                             // REFRACTION
+    // cout <<"mtl.dissolve " << endl;
     Ray reflRay(x, r.dire_ - n * 2 * n.dot(r.dire_));
 
     bool into = n.dot(nl) > 0;
@@ -88,6 +89,7 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
 
 
   if (mtl.shininess > 1) { // REFLECTION
+    cout <<"mtl.shininess " << endl;
     if (erand48(Xi) < pp / (p + pp)) {// Russian roulette
       double xx = erand48(Xi);
       double yy = erand48(Xi);
@@ -121,6 +123,7 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
       u(2) = w(2) - w(1);
     u /= u.norm();
   }
+  u = u.cross(w);
   vec v = w.cross(u);
   vec d = (u * cos(r1) * r2s + v * sin(r1) * r2s + w * sqrt(1 - r2));
   d /= d.norm();

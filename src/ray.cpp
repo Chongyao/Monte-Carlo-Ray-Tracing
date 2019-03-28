@@ -100,7 +100,7 @@ bool Ray::intersct_tri_aabb(const tri_aabb& tri, Ray&next)const{
   axis dim1, dim2;
   double offset;
   if(!project_dim(tri.normal_, dim1, dim2)
-     || !get_cross_point(origin_, dire_, tri.normal_, tri.d_, offset) || offset > final_offset_)
+     || !get_cross_point(origin_, dire_, tri.normal_, tri.d_, offset) || offset > final_offset_ || offset < 1e-4)
     return false;
 
 
@@ -122,7 +122,7 @@ bool Ray::intersct_tri_aabb(const tri_aabb& tri, Ray&next)const{
   if ( s > 0 && s < 1 && t > 0 && t < 1 && (1 - s - t) > 0 && (1 - s - t) < 1 ){
     final_offset_ = offset;
     next.origin_ = cross_point;
-    next.dire_ = tri.n_.col(0) * (1 - s - t) + tri.n_.col(1) * s + tri.n_.col(2) * t;
+    next.dire_ = tri.n_.col(0) * t + tri.n_.col(1) * s + tri.n_.col(2) * (1 - s -t);
     next.dire_ /= next.dire_.norm();
     return true;
   }
@@ -143,10 +143,10 @@ bool Ray::intersect(const unique_ptr<KD_tree_tris>& kd, size_t& face_id, Ray& ne
       bool is_inter = false;
 
       for(size_t f_id = 0; f_id < kd->child_.size(); ++f_id){
-        if(is_inter = intersct_tri_aabb(*(kd->child_[f_id]), next)){
+        if(intersct_tri_aabb(*(kd->child_[f_id]), next)){
+          is_inter = true;
           face_id = kd->child_[f_id]->id_;
-          cout << "in intersec face id" << face_id <<" " << f_id<< endl;
-          break;
+          // break;
         }
 
       }
@@ -154,7 +154,7 @@ bool Ray::intersect(const unique_ptr<KD_tree_tris>& kd, size_t& face_id, Ray& ne
     }
     else
       return intersect(kd->left_tree_, face_id, next)
-          || intersect(kd->right_tree_, face_id, next);
+          | intersect(kd->right_tree_, face_id, next);
   }
   else{
     return false;
@@ -165,9 +165,36 @@ bool Ray::intersect_forest(const vector<unique_ptr<KD_tree_tris>>& KD_forest, si
   size_t num_model = KD_forest.size();
   bool is_inter = false;
   for(size_t m_id = 0; m_id < num_model; ++m_id){
-    if(intersect(KD_forest[m_id], face_id, next))
-      is_inter = true;
+    if(intersect(KD_forest[m_id], face_id, next)){
+      cout << "off set : " << final_offset_ << endl;      
+      is_inter = true;      
+    }
+
   }
   return is_inter;
   
+
+}
+
+bool Ray::intersect_forest_loop(const std::vector<std::unique_ptr<KD_tree_tris>>& KD_forest,
+                                size_t& face_id, Ray& next)const{
+  bool is_inter = false;
+  for(auto& kd : KD_forest){
+    cout << "num tris is "<< kd->child_.size() << endl;
+    size_t num_tris = kd->child_.size();
+    for(int f_id = num_tris - 1; f_id >=0 ; --f_id){
+      if( intersct_tri_aabb(*(kd->child_[f_id]), next)){
+        is_inter = true;
+        face_id = kd->child_[f_id]->id_;
+        cout << "off set : " << final_offset_ << "  f id " << f_id << endl;
+        cout << kd->child_[f_id]->p_ << endl;
+        cout << kd->child_[f_id]->n_  << endl;
+        // break;
+      }
+
+    }
+    cout << is_inter  << endl;
+  }
+
+  return is_inter;
 }

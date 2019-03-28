@@ -1,7 +1,7 @@
 #include "model.h"
 #define TINYOBJLOADER_IMPLEMENTATION
 #include "tiny_obj_loader.h"
-#include <iostream>
+
 using namespace std;
 Model::Model(){
   tris_.clear();

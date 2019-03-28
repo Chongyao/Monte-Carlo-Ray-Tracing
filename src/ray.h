@@ -11,6 +11,8 @@ class Ray{
   Ray(const vec& orgin = vec::Zero(), const vec& dire = vec::Zero());
   bool intersect_forest(const std::vector<std::unique_ptr<KD_tree_tris>>& KD_forest,
                         size_t& face_id, Ray& next)const;
+  bool intersect_forest_loop(const std::vector<std::unique_ptr<KD_tree_tris>>& KD_forest,
+                        size_t& face_id, Ray& next)const;  
 
  private:
   bool intersect(const std::unique_ptr<KD_tree_tris>& kd, size_t& face_id, Ray& next)const;

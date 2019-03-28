@@ -12,12 +12,17 @@ using namespace Eigen;
 using vec = Eigen::Vector3d;
 
 vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
+  cout << endl << endl <<endl;
+  cout << "ray origin is " << endl<< r.origin_ << endl;
+  cout << "dire is "<< endl << r.dire_ << endl;
+  
   size_t mtl_id;   // id of material of intersected triangle
   Ray next;     // intersection point and normal
   //TODO: replace with my intersect
   if (!r.intersect_forest(KD_forest, mtl_id, next)) return vec::Zero(); // return blaock
   
   cout << "next origin is " << endl<< next.origin_ << endl <<"mtl id is " <<mtl_id << endl;
+  cout << "dire is "<< endl << next.dire_ << endl;
   const tinyobj::material_t &mtl = scene.materials[mtl_id];
   const vec &x = next.origin_;
   const vec &n = next.dire_;
