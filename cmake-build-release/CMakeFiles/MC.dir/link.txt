@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG    -rdynamic CMakeFiles/MC.dir/src/main.cc.o  -o bin/MC lib/libMC_Source.a 

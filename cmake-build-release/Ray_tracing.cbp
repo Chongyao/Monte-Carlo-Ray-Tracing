@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Ray_tracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MC">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/MC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 MC"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MC/fast">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/MC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 MC/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_aabb">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_aabb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_aabb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_aabb/fast">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_aabb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_aabb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MC_Source">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/lib/libMC_Source.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 MC_Source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MC_Source/fast">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/lib/libMC_Source.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 MC_Source/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_model">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_model"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_model/fast">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_model/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_kdtree">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_kdtree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_kdtree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_kdtree/fast">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_kdtree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_kdtree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_radiance">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_radiance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_radiance"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_radiance/fast">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_radiance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_radiance/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_ray">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_ray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_ray"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_ray/fast">
+				<Option output="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin/test_ray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 test_ray/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/aabb.cpp">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/aabb.h">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/kd_tree.cpp">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/kd_tree.h">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/main.cc">
+			<Option target="MC"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/model.cpp">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/model.h">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/ray.cpp">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/ray.h">
+			<Option target="MC_Source"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/test/test_aabb.cc">
+			<Option target="test_aabb"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/test/test_kdtree.cc">
+			<Option target="test_kdtree"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/test/test_model.cc">
+			<Option target="test_model"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/test/test_radiance.cc">
+			<Option target="test_radiance"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/src/test/test_ray.cc">
+			<Option target="test_ray"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

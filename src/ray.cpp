@@ -181,6 +181,7 @@ bool Ray::intersect_forest_loop(const std::vector<std::unique_ptr<KD_tree_tris>>
   for(auto& kd : KD_forest){
 
     size_t num_tris = kd->child_.size();
+    cout << "num tris is "<< num_tris << endl;
     for(int f_id = num_tris - 1; f_id >=0 ; --f_id){
       if( intersct_tri_aabb(*(kd->child_[f_id]), next)){
         is_inter = true;
@@ -192,7 +193,7 @@ bool Ray::intersect_forest_loop(const std::vector<std::unique_ptr<KD_tree_tris>>
       }
 
     }
-    cout << is_inter  << endl;
+    // cout << is_inter  << endl;
   }
 
   return is_inter;

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG    -rdynamic CMakeFiles/test_aabb.dir/src/test/test_aabb.cc.o  -o bin/test_aabb lib/libMC_Source.a 

@@ -35,7 +35,7 @@ tri_aabb::tri_aabb(const size_t& id, const vec& p1, const vec& p2, const vec& p3
   p_.col(2) = p3;
   id_ = id;
   low_bd_ = p1;
-  up_bd_ = p2;
+  up_bd_ = p1;
   for(size_t i = 0; i < 3; ++i){
     if(low_bd_(i) > p2(i))
       low_bd_(i) = p2(i);
@@ -71,7 +71,7 @@ tri_aabb::tri_aabb(const size_t& id, const tri& plane, const tri& n){
   n_ = n;
   vec p1 = plane.col(0), p2 = plane.col(1), p3 = plane.col(2);
   low_bd_ = p1;
-  up_bd_ = p2;
+  up_bd_ = p1;
   for(size_t i = 0; i < 3; ++i){
     if(low_bd_(i) > p2(i))
       low_bd_(i) = p2(i);

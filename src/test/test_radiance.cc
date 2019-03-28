@@ -13,18 +13,18 @@ using namespace Eigen;
 using vec = Eigen::Vector3d;
 
 vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
-  cout << "Xi" << Xi[0] <<Xi[1]<<Xi[2] <<endl;
   cout << endl << endl <<endl;
-  cout << "ray origin is " << endl<< r.origin_ << endl;
-  cout << "dire is "<< endl << r.dire_ << endl;
+  cout << "Xi" << Xi[0] <<" "<<Xi[1] << " " <<Xi[2] <<endl;
+  cout << "ray origin is " << endl<< r.origin_(0) << " "<<r.origin_(1) << " " << r.origin_(2) << endl;
+  cout << "dire is "<< endl << r.dire_(0) << " "<<r.dire_(1)<< " " <<r.dire_(2) << endl;
   
   size_t mtl_id;   // id of material of intersected triangle
   Ray next;     // intersection point and normal
   //TODO: replace with my intersect
   if (!r.intersect_forest(KD_forest, mtl_id, next)) return vec::Zero(); // return blaock
   
-  cout << "next origin is " << endl<< next.origin_ << endl <<"mtl id is " <<mtl_id << endl;
-  cout << "dire is "<< endl << next.dire_ << endl;
+  cout << "origin is " << endl<< next.origin_(0) << " " << next.origin_(1) << " " << next.origin_(2) << endl <<"mtl id is " <<mtl_id << endl;
+  cout << "dire is "<< endl << next.dire_(0) << " "<< next.dire_(1) << " " << next.dire_(2) << endl;
   const tinyobj::material_t &mtl = scene.materials[mtl_id];
   const vec &x = next.origin_;
   const vec &n = next.dire_;
@@ -124,6 +124,8 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
 
 
   double r1 = 2 * M_PI * erand48(Xi), r2 = erand48(Xi), r2s = sqrt(r2);
+  cout << "rrr" << endl;
+  cout << r1 << " " << r2 << " " << r2s;
   vec w = nl, u = vec::Zero();{
     if(fabs(w(0)) > .1)
       u(1) = 1;
@@ -190,17 +192,17 @@ int main(int argc, char *argv[]) {
   const Setting st(argv[2]);
   const int samps = st.spp / 4;// using 4 subpiexel
 
-  cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;  
+  //cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;
   size_t height = 25;
   size_t num_model = scene.models.size();
-  cout << "num model is "<< num_model << endl;
+  //cout << "num model is "<< num_model << endl;
   vector<unique_ptr<KD_tree_tris>> KD_forest(num_model);
   #pragma omp parallel for
   for(size_t m_id = 0; m_id < num_model; ++m_id){
     KD_forest[m_id] = unique_ptr<KD_tree_tris>(new KD_tree_tris(scene.models[m_id]->tris_, height, 0, nullptr, true));
   }
 
-  cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;
+  //cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;
     
   
   // camera coordinate
@@ -220,11 +222,11 @@ int main(int argc, char *argv[]) {
             double r2 = 2 * erand48(Xi), dy = r2 < 1 ? sqrt(r2) - 1 : 1 - sqrt(2 - r2);
             vec d = cx * (((sx + .5 + dx) / 2 + x) / st.w - .5) +
                     cy * (((sy + .5 + dy) / 2 + y) / st.h - .5) + st.cam.dire_;
-            cout << endl<< r1 << " " << r2 << endl << d << endl;
+
             d /= d.norm();
 
             r = r + radiance(Ray(st.cam.origin_, d), 0, Xi, scene, KD_forest) * (1. / samps);
-            cout << "this is r " << endl << r << endl <<endl<< endl;
+            cout << "this is r " << endl << r(0)<< " "<< r(1) << " " << r(2) << endl;
 
           }
           // TODO: check whether we need lock here

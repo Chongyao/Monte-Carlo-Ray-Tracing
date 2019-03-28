@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG    -rdynamic CMakeFiles/test_ray.dir/src/test/test_ray.cc.o  -o bin/test_ray lib/libMC_Source.a 

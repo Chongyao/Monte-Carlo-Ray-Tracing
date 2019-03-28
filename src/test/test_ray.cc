@@ -20,9 +20,9 @@ int main(int argc, char** argv){
   //#pragma omp parallel for  
   for(size_t i = 0; i <1; ++i){
     vec origin;
-    origin << -3.1764645748657969, 2.2204460492503131e-16, 1.1263950177258757;
+    origin << -5.51127, -8.88178e-16, 4.01787;
     vec dire;
-    dire << -0.46322939362672411, 0.875683485305085, -0.13637068029513005;
+    dire << 0.194593, 0.463311, -0.8645637;
     // cout << "origin is "  << endl << origin << endl  << "dire is " << endl << dire <<endl;
     Ray one_ray(origin, dire);
     Ray fool_ray(origin, dire);

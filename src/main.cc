@@ -1,3 +1,7 @@
+#define EIGEN_USE_BLAS
+#define NDEBUG
+
+
 #include <Eigen/Dense>
 
 #include "ray.h"
@@ -181,6 +185,7 @@ public:
 };
 
 int main(int argc, char *argv[]) {
+  Eigen::initParallel();
   if (argc < 2) return printf("usage: %s input.obj cam.txt\n", argv[0]);
   const Scene scene(argv[1]);
   const Setting st(argv[2]);
