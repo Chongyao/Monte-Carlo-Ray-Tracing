@@ -11,7 +11,8 @@ using namespace std;
 using namespace Eigen;
 using vec = Eigen::Vector3d;
 
-vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
+vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
+  cout << "Xi" << Xi[0] <<Xi[1]<<Xi[2] <<endl;
   cout << endl << endl <<endl;
   cout << "ray origin is " << endl<< r.origin_ << endl;
   cout << "dire is "<< endl << r.dire_ << endl;
@@ -126,10 +127,11 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
     if(fabs(w(0)) > .1)
       u(1) = 1;
     else
-      u(2) = w(2) - w(1);
+      u(0) = 1;
+    u = u.cross(w);
     u /= u.norm();
   }
-  u = u.cross(w);
+
   vec v = w.cross(u);
   vec d = (u * cos(r1) * r2s + v * sin(r1) * r2s + w * sqrt(1 - r2));
   d /= d.norm();

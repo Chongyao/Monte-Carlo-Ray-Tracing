@@ -10,13 +10,14 @@
 using namespace std;
 using namespace Eigen;
 using vec = Eigen::Vector3d;
-vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
+vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
+  
   size_t mtl_id;   // id of material of intersected triangle
   Ray next;     // intersection point and normal
   //TODO: replace with my intersect
   if (!r.intersect_forest(KD_forest, mtl_id, next)) return vec::Zero(); // return blaock
   
-  // cout << "next origin is " << endl<< next.origin_ << endl <<"mtl id is " <<mtl_id << endl;
+
   const tinyobj::material_t &mtl = scene.materials[mtl_id];
   const vec &x = next.origin_;
   const vec &n = next.dire_;
@@ -42,7 +43,7 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
   double p = f.maxCoeff() ;// max refl
   double pp = ff.maxCoeff(); // max refl
   double mp = max(p, pp);
-  // cout<<"mp" << mp << endl;
+
   bool checkke = ke(0) != 0 && ke(1) != 0 && ke(2) != 0 ;
 
   if (ke(0) != 0 && ke(1) != 0 && ke(2) != 0) //find light
@@ -57,7 +58,7 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
   const vec nl = n.dot(r.dire_) < 0 ? n : n * -1;
 
   if (mtl.dissolve < 1) {                                             // REFRACTION
-    // cout <<"mtl.dissolve " << endl;
+
     Ray reflRay(x, r.dire_ - n * 2 * n.dot(r.dire_));
 
     bool into = n.dot(nl) > 0;
@@ -89,7 +90,7 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
 
 
   if (mtl.shininess > 1) { // REFLECTION
-    cout <<"mtl.shininess " << endl;
+
     if (erand48(Xi) < pp / (p + pp)) {// Russian roulette
       double xx = erand48(Xi);
       double yy = erand48(Xi);
@@ -120,10 +121,11 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
     if(fabs(w(0)) > .1)
       u(1) = 1;
     else
-      u(2) = w(2) - w(1);
+      u(0) = 1;
+    u = u.cross(w);
     u /= u.norm();
   }
-  u = u.cross(w);
+
   vec v = w.cross(u);
   vec d = (u * cos(r1) * r2s + v * sin(r1) * r2s + w * sqrt(1 - r2));
   d /= d.norm();
@@ -131,7 +133,6 @@ vec radiance(const Ray &r, int depth, unsigned short *Xi, const Scene &scene, co
 
 
 }
-
 
 inline double clamp(double x) { return x < 0 ? 0 : x > 1 ? 1 : x; }
 
