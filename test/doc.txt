@@ -1,0 +1,5 @@
+for 40 samples 200x200
+* no kdtree: 21.93s 
+* kdtree midpoint seperated: 4.03s
+* kdtree median point seperated: 2.85s
+

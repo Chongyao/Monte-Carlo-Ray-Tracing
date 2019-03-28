@@ -1,13 +1,13 @@
 #include "model.h"
 #define TINYOBJLOADER_IMPLEMENTATION
 #include "tiny_obj_loader.h"
-
+#include <iostream>
 using namespace std;
 Model::Model(){
   tris_.clear();
 }
 Model::Model(const size_t& num_tris){
-  tris_ = vector<Triangle>(num_tris);
+  tris_ = vector<shared_ptr<tri_aabb>>(num_tris);
 
 }
 string dirname(const string &s) {
@@ -67,8 +67,8 @@ int Scene::build_models(const vector<tinyobj::real_t> &pts, const vector<tinyobj
           n(dim, v_id) = vns[vert_id[v_id] + dim];
         }
       }
-     
-      models[m_id]->tris_[face_id] = Triangle(p, n, shapes[m_id].mesh.material_ids[face_id]);
+
+      models[m_id]->tris_[face_id] = make_shared<tri_aabb>(shapes[m_id].mesh.material_ids[face_id], p , n);
     }//loop 4 face
     
   }//loop 4 shape

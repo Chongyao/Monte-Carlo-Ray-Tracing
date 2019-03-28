@@ -64,9 +64,10 @@ tri_aabb::tri_aabb(const size_t& id, const vec& p1, const vec& p2, const vec& p3
   d_ = -normal_.dot(p1) ;
 
 }
-tri_aabb::tri_aabb(const size_t& id, const tri& plane){
+tri_aabb::tri_aabb(const size_t& id, const tri& plane, const tri& n){
   id_ = id;
   p_ = plane;
+  n_ = n;
   vec p1 = plane.col(0), p2 = plane.col(1), p3 = plane.col(2);
   low_bd_ = p1;
   up_bd_ = p2;

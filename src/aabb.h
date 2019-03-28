@@ -20,9 +20,9 @@ class tri_aabb : public aabb{
   vec normal_;
   double d_;
   vec center;
-  tri p_;
+  tri p_, n_;
   tri_aabb(const size_t& id, const vec& p1, const vec& p2, const vec& p3);
-  tri_aabb(const size_t& id, const tri& plane);
+  tri_aabb(const size_t& id, const tri& plane, const tri&n);
   tri_aabb(){}
 };
 
