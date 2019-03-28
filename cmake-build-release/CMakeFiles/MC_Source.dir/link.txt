@@ -1,2 +1,0 @@
-/usr/bin/ar qc lib/libMC_Source.a  CMakeFiles/MC_Source.dir/src/aabb.cpp.o CMakeFiles/MC_Source.dir/src/kd_tree.cpp.o CMakeFiles/MC_Source.dir/src/model.cpp.o CMakeFiles/MC_Source.dir/src/ray.cpp.o
-/usr/bin/ranlib lib/libMC_Source.a

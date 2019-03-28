@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -O3 -DNDEBUG    -rdynamic CMakeFiles/test_kdtree.dir/src/test/test_kdtree.cc.o  -o bin/test_kdtree lib/libMC_Source.a 

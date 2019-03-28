@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -O3 -DNDEBUG    -rdynamic CMakeFiles/test_radiance.dir/src/test/test_radiance.cc.o  -o bin/test_radiance lib/libMC_Source.a 

@@ -1,9 +1,0 @@
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/rebuild_cache.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/edit_cache.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/MC.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/test_aabb.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/MC_Source.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/test_model.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/test_kdtree.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/test_radiance.dir
-/home/zcy/Documents/projects/Monte-Carlo-Ray-Tracing/cmake-build-release/CMakeFiles/test_ray.dir
