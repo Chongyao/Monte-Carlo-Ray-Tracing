@@ -1,6 +1,5 @@
 #define EIGEN_USE_BLAS
-#define NDEBUG
-
+// #define NDEBUG
 
 #include <Eigen/Dense>
 
@@ -16,6 +15,21 @@
 using namespace std;
 using namespace Eigen;
 using vec = Eigen::Vector3d;
+
+// vec project_up(const vec& up, const vec& lookat, const vec& p){
+//   vec dire = lookat - up;
+//   dire /= dire.norm();
+//   if(fabs(dire.dot(up)) < 1e-4){
+//     cout << "do not change up" <<endl;
+//     return up;    
+//   }
+
+//   else{
+//     vec new_up = up - up.dot(dire) * dire;    
+//     cout << "new up is " << new_up << endl;
+//     return std::move(new_up);
+//   }
+// }
 
 vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, const vector<unique_ptr<KD_tree_tris>>& KD_forest) {
 
@@ -176,9 +190,10 @@ public:
     ifstream fin(file);
     double fovy_angle = 0;
     fin >> spp >> w >> h >> fovy_angle;
+
     aspect = w * 1.0 / h;
     fovy = tan(M_PI * fovy_angle / 2 / 180.0);
-
+    
     fin >> cam.origin_(0) >> cam.origin_(1) >> cam.origin_(2);
     vec lookat;
     fin >> lookat(0) >> lookat(1) >> lookat(2);
@@ -187,6 +202,13 @@ public:
 
     fin >> up(0) >> up(1) >> up(2);
     up /= up.norm();
+
+    double scale;
+    fin >> scale;
+    cam.dire_ *= scale;    
+
+    // up = up - up.dot(cam.dire_) * cam.dire_;    
+    
   }
 };
 
@@ -198,7 +220,7 @@ int main(int argc, char *argv[]) {
   const int samps = st.spp / 4;// using 4 subpiexel
 
   cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;  
-  size_t height = 25;
+  size_t height = 7;
   size_t num_model = scene.models.size();
   cout << "num model is "<< num_model << endl;
   vector<unique_ptr<KD_tree_tris>> KD_forest(num_model);
@@ -211,13 +233,14 @@ int main(int argc, char *argv[]) {
     
   
   // camera coordinate
-  vec cx = (st.cam.dire_.cross(st.up)) * st.aspect * st.fovy, r;
-  vec cy = (cx.cross(st.cam.dire_));
-  cy /= cy.norm() * st.fovy;
+  vec cx = st.cam.dire_.cross(st.up), cy = cx.cross(st.cam.dire_), r;
+  cx *=  st.aspect * st.fovy * (1 / cx.norm() );
+  cy *=  st.fovy * (1 / cy.norm() );
+  cout << "cx is "<< endl << cx << endl << "cy is "<< endl << cy << endl;
   vector<vec> c(st.w * st.h);// color buffer
 
 #pragma omp parallel for schedule(dynamic, 1) private(r)
-  for (int y = 0; y < st.h; y++) {
+  for (int y = 0; y <  st.h; y++) {
     // cout << "y is " << y << endl;
     fprintf(stderr, "\rRendering (%d spp) %5.2f%%", st.spp, 100. * y / (st.h - 1));
     unsigned short Xi[3] = {0, 0, y * y * y};
