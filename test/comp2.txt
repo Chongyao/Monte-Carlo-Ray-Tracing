@@ -1,0 +1,7346 @@
+Rendering (100 spp)  0.00%before plus 
+0 0 0
+
+
+
+Xi59066 37933 64
+ray origin is 
+0 5 14
+dire is 
+-0.44442 -0.401595 -0.800757
+origin is 
+-5.53319 0 4.03028
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.261575 0.176643 0.420289final 
+
+
+
+Xi52484 29636 11576
+ray origin is 
+-5.53319 0 4.03028
+dire is 
+0.108688 0.90739 0.405992
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi9566 29032 5985
+ray origin is 
+0 5 14
+dire is 
+-0.44277 -0.401143 -0.801897
+origin is 
+-5.51886 0 4.00484
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.579923 0.487217 0.698009final 
+
+
+
+Xi58952 17562 31930
+ray origin is 
+-5.51886 0 4.00484
+dire is 
+0.382481 0.716089 0.583888
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi10818 49077 29781
+ray origin is 
+0 5 14
+dire is 
+-0.442647 -0.400044 -0.802514
+origin is 
+-5.53248 0 3.96969
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.4651 0.831292 0.911752final 
+
+
+
+Xi53196 35298 54479
+ray origin is 
+-5.53248 0 3.96969
+dire is 
+0.906664 0.410741 0.0961865
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi6502 23251 37228
+ray origin is 
+0 5 14
+dire is 
+-0.441404 -0.400066 -0.803187
+origin is 
+-5.51663 0 3.96182
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.49404 0.0508319 0.225459final 
+
+
+
+Xi19856 20993 3331
+ray origin is 
+-5.51663 0 3.96182
+dire is 
+-0.0778284 0.974253 -0.2116
+origin is 
+-5.76397 3.09615 3.28936
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.81952 0.0189148 0.137531final 
+
+
+
+Xi22218 39358 1239
+ray origin is 
+-5.76397 3.09615 3.28936
+dire is 
+0.990497 -0.136743 -0.0147063
+origin is 
+1.41858 2.10456 3.18272
+mtl id is 5
+dire is 
+-0.518728 0.318615 0.793351
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi28685 42556 16538
+ray origin is 
+1.41858 2.10456 3.18272
+dire is 
+0.400149 0.225864 0.888181
+dissolve other 
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi24079 18488 57408
+ray origin is 
+0 5 14
+dire is 
+-0.443455 -0.39869 -0.802742
+origin is 
+-5.56141 0 3.93275
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.33987 0.920261 0.959302final 
+
+
+
+Xi4321 14489 60310
+ray origin is 
+-5.56141 0 3.93275
+dire is 
+-0.188964 0.282381 -0.940507
+origin is 
+-5.76397 0.302703 2.92456
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.23855 0.810429 0.900239final 
+
+
+
+Xi40195 19966 53112
+ray origin is 
+-5.76397 0.302703 2.92456
+dire is 
+0.435397 -0.0871475 0.89601
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi27381 32990 58085
+ray origin is 
+0 5 14
+dire is 
+-0.443806 -0.398567 -0.802609
+origin is 
+-5.56751 0 3.93132
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.58527 0.0767746 0.277082final 
+
+
+
+Xi22327 32629 5031
+ray origin is 
+-5.56751 0 3.93132
+dire is 
+-0.118942 0.960846 -0.250254
+origin is 
+-5.76397 1.58702 3.51798
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.12252 0.984891 0.992417final 
+
+
+
+Xi53833 53590 64545
+ray origin is 
+-5.76397 1.58702 3.51798
+dire is 
+0.122919 -0.910115 -0.395703
+origin is 
+-5.54963 0 2.82797
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.743626 0.893906 0.945466final 
+
+
+
+Xi171 1121 58583
+ray origin is 
+-5.54963 0 2.82797
+dire is 
+0.640044 0.325721 0.695881
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi56029 42525 6613
+ray origin is 
+0 5 14
+dire is 
+-0.441728 -0.401326 -0.80238
+origin is 
+-5.50336 0 4.00338
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.5916 0.0198417 0.14086final 
+
+
+
+Xi19807 22489 1300
+ray origin is 
+-5.50336 0 4.00338
+dire is 
+0.14083 0.990029 -0.00292987
+origin is 
+-4.08087 10 3.97379
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.37742 0.678877 0.82394final 
+
+
+
+Xi22705 59636 44490
+ray origin is 
+-4.08087 10 3.97379
+dire is 
+0.57012 -0.566677 0.594845
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi12627 25149 49329
+ray origin is 
+0 5 14
+dire is 
+-0.442435 -0.399354 -0.802974
+origin is 
+-5.53938 0 3.9466
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.0391408 0.624407 0.790194final 
+
+
+
+Xi24517 7764 40921
+ray origin is 
+-5.53938 0 3.9466
+dire is 
+0.0309209 0.612857 0.789589
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi57479 48742 40471
+ray origin is 
+0 5 14
+dire is 
+-0.443855 -0.399409 -0.802163
+origin is 
+-5.5564 0 3.95813
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.84389 0.186536 0.431898final 
+
+
+
+Xi17433 53189 12224
+ray origin is 
+-5.5564 0 3.95813
+dire is 
+-0.428169 0.901922 0.0566294
+origin is 
+-5.76397 0.437232 3.98558
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.12099 0.5095 0.713793final 
+
+
+
+Xi52987 40479 33390
+ray origin is 
+-5.76397 0.437232 3.98558
+dire is 
+0.700357 0.0147018 0.713642
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi39341 51055 45986
+ray origin is 
+0 5 14
+dire is 
+-0.443277 -0.399318 -0.802528
+origin is 
+-5.55043 0 3.95126
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.30748 0.876312 0.936116final 
+
+
+
+Xi45231 468 57430
+ray origin is 
+-5.55043 0 3.95126
+dire is 
+0.693382 0.351693 -0.628914
+origin is 
+4.31839 5.00559 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+2.33103 0.525252 0.724743final 
+
+
+
+Xi13441 61681 34422
+ray origin is 
+4.31839 5.00559 -5
+dire is 
+0.525204 0.499413 0.689019
+origin is 
+5.76397 6.38018 -3.10353
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.68816 0.542743 0.736711final 
+
+
+
+Xi31139 14217 35569
+ray origin is 
+5.76397 6.38018 -3.10353
+dire is 
+-0.676208 0.322717 -0.662267
+origin is 
+3.82758 7.30431 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+4.19703 0.171142 0.413693final 
+
+
+
+Xi10389 62321 11215
+ray origin is 
+3.82758 7.30431 -5
+dire is 
+-0.359961 0.203886 0.910416
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi24023 54541 56485
+ray origin is 
+0 5 14
+dire is 
+-0.442052 -0.399057 -0.803333
+origin is 
+-5.53871 0 3.93461
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.83316 0.0525795 0.229302final 
+
+
+
+Xi51689 55539 3445
+ray origin is 
+-5.53871 0 3.93461
+dire is 
+-0.227632 0.973355 0.0276255
+origin is 
+-5.76397 0.963226 3.96195
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+6.07414 0.334284 0.578173final 
+
+
+
+Xi53579 41326 21907
+ray origin is 
+-5.76397 0.963226 3.96195
+dire is 
+0.815914 -0.119985 -0.565586
+origin is 
+0.786089 -1.11022e-16 -0.578505
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.515828 0.270315 0.519918final 
+
+
+
+Xi44157 22254 17715
+ray origin is 
+0.786089 -1.11022e-16 -0.578505
+dire is 
+0.256452 0.854216 0.452269
+origin is 
+3.78828 10 4.71604
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.466604 0.676226 0.822329final 
+
+
+
+Xi34815 8623 44317
+ray origin is 
+3.78828 10 4.71604
+dire is 
+0.36993 -0.569012 -0.734423
+origin is 
+5.76397 6.96107 0.793698
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.09038 0.464211 0.68133final 
+
+
+
+Xi42065 35868 30422
+ray origin is 
+5.76397 6.96107 0.793698
+dire is 
+-0.731976 -0.633235 0.251445
+origin is 
+-2.28255 0 3.55781
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi35458 35462 38437
+ray origin is 
+0 5 14
+dire is 
+-0.442744 -0.399729 -0.802617
+origin is 
+-5.53806 0 3.96047
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.64176 0.871689 0.933643final 
+
+
+
+Xi51724 65413 57126
+ray origin is 
+-5.53806 0 3.96047
+dire is 
+-0.931315 0.358206 -0.0658904
+origin is 
+-5.76397 0.0868891 3.94449
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.63148 0.964704 0.982193final 
+
+
+
+Xi15782 53362 63222
+ray origin is 
+-5.76397 0.0868891 3.94449
+dire is 
+0.187873 -0.462144 0.866675
+origin is 
+-5.72865 -1.38778e-17 4.10743
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.09563 0.392828 0.62676final 
+
+
+
+Xi43984 24497 25744
+ray origin is 
+-5.72865 -1.38778e-17 4.10743
+dire is 
+0.542404 0.779212 -0.314048
+origin is 
+1.23227 10 0.0771069
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.11167 0.111869 0.334468final 
+
+
+
+Xi32522 29379 7331
+ray origin is 
+1.23227 10 0.0771069
+dire is 
+0.299831 -0.942407 -0.148225
+origin is 
+4.41382 0 -1.49572
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.35755 0.811172 0.900651final 
+
+
+
+Xi26068 62739 53160
+ray origin is 
+4.41382 0 -1.49572
+dire is 
+-0.719622 0.434544 0.541587
+origin is 
+1.89148 1.52311 0.402581
+mtl id is 5
+dire is 
+-0.223033 -0.0491688 -0.97357
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi43041 62275 9103
+ray origin is 
+0 5 14
+dire is 
+-0.441293 -0.401255 -0.802655
+origin is 
+-5.49891 -8.88178e-16 3.99819
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.31144 0.126987 0.356353final 
+
+
+
+Xi9795 16351 8322
+ray origin is 
+-5.49891 -8.88178e-16 3.99819
+dire is 
+-0.328091 0.934351 -0.139081
+origin is 
+-5.76397 0.754845 3.88583
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.0256995 0.000502785 0.0224229final 
+
+
+
+Xi13877 62291 32
+ray origin is 
+-5.76397 0.754845 3.88583
+dire is 
+0.999749 0.000576192 -0.0224155
+origin is 
+5.76397 0.761489 3.62736
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.21235 0.58678 0.766016final 
+
+
+
+Xi13431 14669 38455
+ray origin is 
+5.76397 0.761489 3.62736
+dire is 
+-0.642822 0.717331 0.268732
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi4489 29061 1755
+ray origin is 
+0 5 14
+dire is 
+-0.442651 -0.401588 -0.80174
+origin is 
+-5.51127 -8.88178e-16 4.01787
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.92021 0.785343 0.886196final 
+
+
+
+Xi29163 15825 51468
+ray origin is 
+-5.51127 -8.88178e-16 4.01787
+dire is 
+0.194593 0.463311 -0.864567
+origin is 
+-3.48157 4.83256 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+2.77864 0.287904 0.536567final 
+
+
+
+Xi52765 4520 18868
+ray origin is 
+-3.48157 4.83256 -5
+dire is 
+0.190499 0.501611 0.843858
+origin is 
+-1.51911 10 3.69314
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.36177 0.525972 0.725239final 
+
+
+
+Xi37535 6487 34470
+ray origin is 
+-1.51911 10 3.69314
+dire is 
+-0.577621 -0.688497 -0.43855
+origin is 
+-5.76397 4.94033 0.470296
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.57678 0.266314 0.516056final 
+
+
+
+Xi16369 11379 17453
+ray origin is 
+-5.76397 4.94033 0.470296
+dire is 
+0.856555 -0.511318 0.069769
+origin is 
+1.24206 0.75809 1.04096
+mtl id is 5
+dire is 
+-0.632806 -0.533887 -0.560821
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi49064 26800 51346
+ray origin is 
+1.24206 0.75809 1.04096
+dire is 
+0.930282 -0.0377897 0.364893
+origin is 
+3.52588 0.665317 1.93676
+mtl id is 5
+dire is 
+0.808642 -0.58826 0.00691686
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi4770 27433 12910
+ray origin is 
+3.52588 0.665317 1.93676
+dire is 
+-0.32638 0.87639 0.354143
+origin is 
+2.72473 2.81655 2.80606
+mtl id is 5
+dire is 
+0.306856 0.771189 0.557769
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi57132 1920 47739
+ray origin is 
+2.72473 2.81655 2.80606
+dire is 
+-0.750763 0.658155 0.0564472
+origin is 
+-5.46949 10 3.42215
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+dissolve other 
+0 0 0
+dissolve other 
+0 0 0
+dissolve other 
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi54105 33025 30543
+ray origin is 
+0 5 14
+dire is 
+-0.44206 -0.400147 -0.802786
+origin is 
+-5.52372 0 3.96887
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.45988 0.134039 0.366114final 
+
+
+
+Xi4155 25999 8784
+ray origin is 
+-5.52372 0 3.96887
+dire is 
+-0.268507 0.93057 0.248884
+origin is 
+-5.76397 0.832641 4.19156
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.31591 0.0180877 0.13449final 
+
+
+
+Xi56557 25757 1185
+ray origin is 
+-5.76397 0.832641 4.19156
+dire is 
+0.990915 -0.110732 -0.0763288
+origin is 
+1.68714 0 3.61762
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.91157 0.670082 0.818585final 
+
+
+
+Xi50671 32878 43914
+ray origin is 
+1.68714 0 3.61762
+dire is 
+-0.297249 0.574385 0.762709
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi27585 56056 9385
+ray origin is 
+0 5 14
+dire is 
+-0.441717 -0.401144 -0.802477
+origin is 
+-5.50571 8.88178e-16 3.99765
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.83564 0.908283 0.953039final 
+
+
+
+Xi41699 13479 59525
+ray origin is 
+-5.50571 8.88178e-16 3.99765
+dire is 
+-0.609611 0.302849 -0.732569
+origin is 
+-5.76397 0.128302 3.6873
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.86579 0.366065 0.605033final 
+
+
+
+Xi37845 27244 23990
+ray origin is 
+-5.76397 0.128302 3.6873
+dire is 
+0.796201 -0.597928 -0.0924498
+origin is 
+-5.59312 0 3.66746
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.93314 0.884822 0.94065final 
+
+
+
+Xi56087 44124 57987
+ray origin is 
+-5.59312 0 3.66746
+dire is 
+-0.32259 0.339379 0.883605
+origin is 
+-5.76397 0.179738 4.13543
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.79709 0.163028 0.403768final 
+
+
+
+Xi43305 15218 10684
+ray origin is 
+-5.76397 0.179738 4.13543
+dire is 
+0.914861 0.136363 0.380044
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi57995 46128 31447
+ray origin is 
+0 5 14
+dire is 
+-0.442886 -0.399935 -0.802436
+origin is 
+-5.53698 0 3.96792
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.195585 0.60843 0.780019final 
+
+
+
+Xi16317 5428 39874
+ray origin is 
+-5.53698 0 3.96792
+dire is 
+0.151589 0.625755 0.765148
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi27967 7161 11960
+ray origin is 
+0 5 14
+dire is 
+-0.441775 -0.400984 -0.802525
+origin is 
+-5.50864 0 3.99305
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.29943 0.898759 0.948029final 
+
+
+
+Xi11153 3936 58901
+ray origin is 
+-5.50864 0 3.99305
+dire is 
+-0.149018 0.318184 -0.936244
+origin is 
+-5.76397 0.545174 2.3889
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.94018 0.942626 0.970889final 
+
+
+
+Xi28467 61107 61775
+ray origin is 
+-5.76397 0.545174 2.3889
+dire is 
+0.239529 0.905401 0.350534
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi32933 3390 60982
+ray origin is 
+0 5 14
+dire is 
+-0.443281 -0.398459 -0.802952
+origin is 
+-5.56244 0 3.92428
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.7264 0.337718 0.581135final 
+
+
+
+Xi7271 46519 22132
+ray origin is 
+-5.56244 0 3.92428
+dire is 
+-0.307109 0.813807 0.493358
+origin is 
+-5.76397 0.534046 4.24804
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.34776 0.702077 0.837901final 
+
+
+
+Xi37625 22020 46011
+ray origin is 
+-5.76397 0.534046 4.24804
+dire is 
+0.545823 -0.171525 0.820156
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi59611 15147 50337
+ray origin is 
+0 5 14
+dire is 
+-0.441243 -0.399568 -0.803523
+origin is 
+-5.52151 0 3.9451
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.72459 0.0908641 0.301437final 
+
+
+
+Xi63117 56936 5954
+ray origin is 
+-5.52151 0 3.9451
+dire is 
+-0.301414 0.953486 0.00367661
+origin is 
+-5.76397 0.767007 3.94806
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.36563 0.174644 0.417905final 
+
+
+
+Xi34959 32700 11445
+ray origin is 
+-5.76397 0.767007 3.94806
+dire is 
+0.908491 -0.331866 -0.253988
+origin is 
+-3.66427 0 3.36105
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.124221 0.419054 0.647343final 
+
+
+
+Xi32609 6007 27463
+ray origin is 
+-3.66427 0 3.36105
+dire is 
+0.0802069 0.762198 0.642355
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi61315 55178 24787
+ray origin is 
+0 5 14
+dire is 
+-0.443161 -0.40011 -0.802197
+origin is 
+-5.53799 0 3.97529
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.63087 0.138448 0.372086final 
+
+
+
+Xi16757 22181 9073
+ray origin is 
+-5.53799 0 3.97529
+dire is 
+0.181878 0.928198 -0.324605
+origin is 
+-3.57852 10 0.478133
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.39293 0.29978 0.547522final 
+
+
+
+Xi20919 25188 19646
+ray origin is 
+-3.57852 10 0.478133
+dire is 
+0.372676 -0.836791 0.401114
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi37065 11044 15650
+ray origin is 
+0 5 14
+dire is 
+-0.444289 -0.400243 -0.801507
+origin is 
+-5.55024 0 3.98724
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.233165 0.221059 0.470169final 
+
+
+
+Xi9003 21301 14487
+ray origin is 
+-5.55024 0 3.98724
+dire is 
+0.108636 0.882576 0.457446
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi349 13433 32409
+ray origin is 
+0 5 14
+dire is 
+-0.44267 -0.399951 -0.802548
+origin is 
+-5.53405 0 3.96692
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.54505 0.77383 0.879676final 
+
+
+
+Xi6111 47805 50713
+ray origin is 
+-5.53405 0 3.96692
+dire is 
+-0.591943 0.475573 0.650718
+origin is 
+-5.76397 0.184718 4.21967
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.370724 0.119801 0.346123final 
+
+
+
+Xi26417 20043 7851
+ray origin is 
+-5.76397 0.184718 4.21967
+dire is 
+0.938189 0.125397 -0.32261
+origin is 
+0.772543 1.05838 1.972
+mtl id is 5
+dire is 
+-0.937711 -0.346159 0.0295371
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi62952 46076 35900
+ray origin is 
+0.772543 1.05838 1.972
+dire is 
+0.952597 0.204362 -0.225378
+origin is 
+3.69454 1.68524 1.28067
+mtl id is 5
+dire is 
+0.912776 0.0535325 -0.404937
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi9171 51587 22407
+ray origin is 
+3.69454 1.68524 1.28067
+dire is 
+0.952044 0.278577 -0.12652
+origin is 
+5.76397 2.29077 1.00566
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.87023 0.588122 0.766891final 
+
+
+
+Xi54853 9597 38543
+ray origin is 
+5.76397 2.29077 1.00566
+dire is 
+-0.641777 0.205558 -0.738829
+origin is 
+0.547202 3.96168 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+dissolve other 
+0 0 0
+dissolve other 
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi44038 32261 53669
+ray origin is 
+0 5 14
+dire is 
+-0.444262 -0.398735 -0.802273
+origin is 
+-5.57089 0 3.93976
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.53313 0.585483 0.765169final 
+
+
+
+Xi45360 14201 38370
+ray origin is 
+-5.57089 0 3.93976
+dire is 
+0.437373 0.64383 -0.627844
+origin is 
+0.65679 9.16738 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+1.2011 0.892277 0.944604final 
+
+
+
+Xi29546 18435 58476
+ray origin is 
+0.65679 9.16738 -5
+dire is 
+0.880784 -0.341316 0.328211
+origin is 
+5.76397 7.18828 -3.09688
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.10793 0.207704 0.455745final 
+
+
+
+Xi24884 4058 13612
+ray origin is 
+5.76397 7.18828 -3.09688
+dire is 
+-0.89011 0.407789 0.203499
+origin is 
+-0.373378 10 -1.69375
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.727265 0.158915 0.398641final 
+
+
+
+Xi52494 40971 10414
+ray origin is 
+-0.373378 10 -1.69375
+dire is 
+0.265028 -0.917107 -0.297783
+origin is 
+2.51645 0 -4.94073
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+6.23697 0.681571 0.825573final 
+
+
+
+Xi36216 27719 44667
+ray origin is 
+2.51645 0 -4.94073
+dire is 
+-0.0381432 0.564295 0.824691
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi40178 13837 42088
+ray origin is 
+0 5 14
+dire is 
+-0.441969 -0.399763 -0.803027
+origin is 
+-5.52789 -8.88178e-16 3.9562
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.06932 0.737553 0.858809final 
+
+
+
+Xi47612 19108 48336
+ray origin is 
+-5.52789 -8.88178e-16 3.9562
+dire is 
+0.754283 0.512296 -0.410622
+origin is 
+5.76397 7.66923 -2.19094
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.17409 0.721261 0.849271final 
+
+
+
+Xi1814 36738 47268
+ray origin is 
+5.76397 7.66923 -2.19094
+dire is 
+-0.527957 -0.760347 0.37833
+origin is 
+1.99705 2.24423 0.508404
+mtl id is 5
+dire is 
+-0.154431 0.408985 -0.899379
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi51305 35074 43121
+ray origin is 
+1.99705 2.24423 0.508404
+dire is 
+-0.281436 -0.693699 0.663005
+origin is 
+1.25407 0.4129 2.2587
+mtl id is 5
+dire is 
+-0.624539 -0.752003 0.210814
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi43712 42249 23512
+ray origin is 
+1.25407 0.4129 2.2587
+dire is 
+0.00498421 -0.526234 0.850325
+origin is 
+1.25798 0 2.9259
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.83503 0.415004 0.644208final 
+
+
+
+Xi28538 44496 27197
+ray origin is 
+1.25798 0 2.9259
+dire is 
+-0.41177 0.764851 -0.495428
+origin is 
+-4.12568 10 -3.55155
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+dissolve other 
+0 0 0
+dissolve other 
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi37503 15050 17977
+ray origin is 
+0 5 14
+dire is 
+-0.439743 -0.401137 -0.803564
+origin is 
+-5.48121 0 3.98393
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.281123 0.601041 0.775268final 
+
+
+
+Xi62161 54940 39389
+ray origin is 
+-5.48121 0 3.98393
+dire is 
+0.215086 0.631632 0.744835
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi43123 48745 41301
+ray origin is 
+0 5 14
+dire is 
+-0.440609 -0.400091 -0.803611
+origin is 
+-5.50635 0 3.95715
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.13659 0.278501 0.527732final 
+
+
+
+Xi31717 54584 18251
+ray origin is 
+-5.50635 0 3.95715
+dire is 
+0.47876 0.849411 0.222014
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi43431 46863 42138
+ray origin is 
+0 5 14
+dire is 
+-0.440752 -0.400028 -0.803564
+origin is 
+-5.50901 8.88178e-16 3.95614
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.66735 0.413655 0.64316final 
+
+
+
+Xi569 20699 27109
+ray origin is 
+-5.50901 8.88178e-16 3.95614
+dire is 
+-0.642508 0.765731 -0.028957
+origin is 
+-5.76397 0.303854 3.94465
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.88334 0.618289 0.786314final 
+
+
+
+Xi2587 13688 40520
+ray origin is 
+-5.76397 0.303854 3.94465
+dire is 
+0.617827 -0.531214 0.579742
+origin is 
+-5.41057 5.55112e-17 4.27626
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.36858 0.181457 0.425978final 
+
+
+
+Xi6605 63727 11891
+ray origin is 
+-5.41057 5.55112e-17 4.27626
+dire is 
+-0.337511 0.904734 0.259891
+origin is 
+-5.76397 0.947319 4.54839
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.93477 0.0233282 0.152736final 
+
+
+
+Xi32207 54817 1528
+ray origin is 
+-5.76397 0.947319 4.54839
+dire is 
+0.988267 0.14273 0.0543722
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi38561 28788 62354
+ray origin is 
+0 5 14
+dire is 
+-0.442762 -0.398442 -0.803247
+origin is 
+-5.55617 0 3.92014
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+6.2251 0.20494 0.452703final 
+
+
+
+Xi63683 62017 13430
+ray origin is 
+-5.55617 0 3.92014
+dire is 
+-0.0262824 0.891661 0.451939
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi36021 59924 61318
+ray origin is 
+0 5 14
+dire is 
+-0.440638 -0.399008 -0.804134
+origin is 
+-5.52167 8.88178e-16 3.92333
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.51587 0.546866 0.739504final 
+
+
+
+Xi44791 27642 35839
+ray origin is 
+-5.52167 8.88178e-16 3.92333
+dire is 
+-0.270359 0.673152 -0.688311
+origin is 
+-5.76397 0.603283 3.30646
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.75912 0.449752 0.670635final 
+
+
+
+Xi20489 61813 29474
+ray origin is 
+-5.76397 0.603283 3.30646
+dire is 
+0.741787 0.25029 0.622179
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi5227 35276 13160
+ray origin is 
+0 5 14
+dire is 
+-0.440868 -0.40112 -0.802956
+origin is 
+-5.49546 0 3.99108
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.35591 0.0498956 0.223373final 
+
+
+
+Xi29853 62926 3269
+ray origin is 
+-5.49546 0 3.99108
+dire is 
+0.218236 0.974733 0.0476317
+origin is 
+-3.25653 10 4.47974
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.31671 0.574563 0.758final 
+
+
+
+Xi56607 38217 37654
+ray origin is 
+-3.25653 10 4.47974
+dire is 
+0.733663 -0.652255 -0.190531
+origin is 
+5.76397 1.98043 2.13714
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.74798 0.41561 0.644678final 
+
+
+
+Xi52849 27068 27237
+ray origin is 
+5.76397 1.98043 2.13714
+dire is 
+-0.764454 -0.328795 0.55453
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi64787 12558 23311
+ray origin is 
+0 5 14
+dire is 
+-0.440136 -0.400831 -0.803502
+origin is 
+-5.49029 0 3.97705
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.68636 0.391946 0.626056final 
+
+
+
+Xi29061 35926 25686
+ray origin is 
+-5.49029 0 3.97705
+dire is 
+-0.324434 0.779778 -0.535433
+origin is 
+-5.76397 0.657783 3.52539
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.212687 0.285516 0.534337final 
+
+
+
+Xi43079 39409 18711
+ray origin is 
+-5.76397 0.657783 3.52539
+dire is 
+0.845271 0.112792 -0.522297
+origin is 
+5.76397 2.19605 -3.59778
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.575565 0.444385 0.666622final 
+
+
+
+Xi45529 12158 29123
+ray origin is 
+5.76397 2.19605 -3.59778
+dire is 
+-0.745396 0.362848 0.559219
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi21179 18295 60377
+ray origin is 
+0 5 14
+dire is 
+-0.439528 -0.399331 -0.80458
+origin is 
+-5.5033 0 3.92591
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.80715 0.861146 0.927979final 
+
+
+
+Xi9069 3962 56436
+ray origin is 
+-5.5033 0 3.92591
+dire is 
+-0.573029 0.372631 -0.729921
+origin is 
+-5.76397 0.169506 3.59387
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.0924708 0.686701 0.828674final 
+
+
+
+Xi45167 40840 45003
+ray origin is 
+-5.76397 0.169506 3.59387
+dire is 
+0.559731 0.076519 -0.825134
+origin is 
+-2.97737 0.550452 -0.514016
+mtl id is 4
+dire is 
+-0.370946 -0.657846 0.655468
+ke is 0 0 0
+mp1
+mtl.shininess 
+
+
+
+Xi5048 40542 3909
+ray origin is 
+-2.97737 0.550452 -0.514016
+dire is 
+-0.0680884 -0.983177 0.169489
+origin is 
+-3.01549 1.11022e-16 -0.419124
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.0821344 0.391159 0.625427final 
+
+
+
+Xi11570 64137 25634
+ray origin is 
+-3.01549 1.11022e-16 -0.419124
+dire is 
+0.0513113 0.780283 0.623318
+0 0 0
+shininess
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi25660 52469 986
+ray origin is 
+0 5 14
+dire is 
+-0.439142 -0.402484 -0.803219
+origin is 
+-5.4554 0 4.02172
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.80748 0.886719 0.941657final 
+
+
+
+Xi23382 318 58112
+ray origin is 
+-5.4554 0 4.02172
+dire is 
+-0.43125 0.336573 0.837103
+origin is 
+-5.76397 0.240823 4.62068
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.1599 0.654911 0.809266final 
+
+
+
+Xi47360 16018 42920
+ray origin is 
+-5.76397 0.240823 4.62068
+dire is 
+0.587443 -0.688864 0.424709
+origin is 
+-5.5586 2.77556e-17 4.76915
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.479658 0.0929771 0.304922final 
+
+
+
+Xi51130 22933 6093
+ray origin is 
+-5.5586 2.77556e-17 4.76915
+dire is 
+0.140714 0.952377 0.270512
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi5636 55850 34515
+ray origin is 
+0 5 14
+dire is 
+-0.442567 -0.399904 -0.802628
+origin is 
+-5.53342 0 3.96474
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.96218 0.654019 0.808714final 
+
+
+
+Xi5726 50637 42861
+ray origin is 
+-5.53342 0 3.96474
+dire is 
+-0.783614 0.588202 0.199919
+origin is 
+-5.76397 0.173057 4.02356
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.42994 0.798389 0.893526final 
+
+
+
+Xi48968 13163 52323
+ray origin is 
+-5.76397 0.173057 4.02356
+dire is 
+0.449011 -0.254094 0.856636
+origin is 
+-5.45816 0 4.60699
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.56632 0.253315 0.503304final 
+
+
+
+Xi11074 15320 16601
+ray origin is 
+-5.45816 0 4.60699
+dire is 
+-0.497944 0.86411 -0.0732546
+origin is 
+-5.76397 0.530689 4.562
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.60376 0.138354 0.37196final 
+
+
+
+Xi14540 12872 9067
+ray origin is 
+-5.76397 0.530689 4.562
+dire is 
+0.928249 0.371758 0.0122584
+origin is 
+5.76397 5.14756 4.71424
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.03446 0.467587 0.683803final 
+
+
+
+Xi10854 49797 30643
+ray origin is 
+5.76397 5.14756 4.71424
+dire is 
+-0.729667 0.0731178 -0.679883
+origin is 
+-4.66159 6.19228 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+3.16807 0.858395 0.926496final 
+
+
+
+Xi27483 50919 56255
+ray origin is 
+-4.66159 6.19228 -5
+dire is 
+-0.0245295 0.926171 0.376304
+origin is 
+-4.76244 10 -3.45292
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.16208 0.964318 0.981997final 
+
+
+
+Xi60564 33964 63197
+ray origin is 
+-4.76244 10 -3.45292
+dire is 
+-0.884368 -0.188898 -0.426861
+origin is 
+-5.76397 9.78608 -3.93633
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.84097 0.0630804 0.251158final 
+
+
+
+Xi60897 2426 4134
+ray origin is 
+-5.76397 9.78608 -3.93633
+dire is 
+0.967946 -0.107481 -0.226998
+origin is 
+-1.22837 9.28244 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+1.19542 0.276666 0.52599final 
+
+
+
+Xi52562 36386 18131
+ray origin is 
+-1.22837 9.28244 -5
+dire is 
+0.489365 -0.19284 0.850491
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi20828 58169 42557
+ray origin is 
+0 5 14
+dire is 
+-0.440767 -0.400008 -0.803566
+origin is 
+-5.50948 8.88178e-16 3.95563
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.949537 0.487155 0.697965final 
+
+
+
+Xi56694 13917 31926
+ray origin is 
+-5.50948 8.88178e-16 3.95563
+dire is 
+0.567548 0.716132 0.406257
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi22560 36756 35014
+ray origin is 
+0 5 14
+dire is 
+-0.440238 -0.400398 -0.803662
+origin is 
+-5.49751 0 3.96421
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.24186 0.394116 0.627787final 
+
+
+
+Xi19418 53111 25828
+ray origin is 
+-5.49751 0 3.96421
+dire is 
+0.49166 0.778385 -0.390368
+origin is 
+0.744437 9.88211 -0.991763
+mtl id is 0
+dire is 
+0 -1 0
+ke is 0.78 0.78 0.78
+mp0.8
+return ke notnull
+0.78 0.78 0.78
+0.39 0.39 0.39
+this is r 
+0.0156 0.0156 0.0156
+before plus 
+0.0156 0.0156 0.0156
+
+
+
+Xi34596 3794 47494
+ray origin is 
+0 5 14
+dire is 
+-0.440146 -0.399939 -0.803941
+origin is 
+-5.50266 0 3.94921
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.92354 0.106581 0.326467final 
+
+
+
+Xi48254 57166 6984
+ray origin is 
+-5.50266 0 3.94921
+dire is 
+0.306366 0.945209 -0.112786
+origin is 
+-2.26141 10 2.75597
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.7226 0.740914 0.860763final 
+
+
+
+Xi8808 34326 48556
+ray origin is 
+-2.26141 10 2.75597
+dire is 
+-0.457655 -0.509005 -0.729017
+origin is 
+-5.76397 6.10444 -2.8234
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.50204 0.651344 0.807059final 
+
+
+
+Xi4962 30618 42686
+ray origin is 
+-5.76397 6.10444 -2.8234
+dire is 
+0.590471 0.805152 -0.0554437
+origin is 
+-2.9071 10 -3.09165
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.3148 0.0261815 0.161807final 
+
+
+
+Xi44524 54241 1715
+ray origin is 
+-2.9071 10 -3.09165
+dire is 
+0.119052 -0.986822 0.109582
+origin is 
+-2.05749 2.95761 -2.30963
+mtl id is 4
+dire is 
+0.206733 0.856669 -0.47263
+ke is 0 0 0
+mp1
+mtl.shininess 
+
+
+
+Xi281 62271 3677
+ray origin is 
+-2.05749 2.95761 -2.30963
+dire is 
+0.547126 0.495384 -0.674721
+origin is 
+0.124102 4.9329 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+3.01425 0.501694 0.708304final 
+
+
+
+Xi17386 3243 32879
+ray origin is 
+0.124102 4.9329 -5
+dire is 
+0.0899517 0.702569 0.705908
+origin is 
+0.757763 9.88211 -0.027265
+mtl id is 0
+dire is 
+0 -1 0
+ke is 0.78 0.78 0.78
+mp0.8
+return ke notnull
+0.78 0.78 0.78
+0.78 0.78 0.78
+shininess
+0.78 0.78 0.78
+0.39 0.39 0.39
+0.39 0 0
+0.195 0 0
+0.0975 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi58804 30419 39813
+ray origin is 
+0 5 14
+dire is 
+-0.438892 -0.400522 -0.804336
+origin is 
+-5.47901 8.88178e-16 3.9589
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.73439 0.750416 0.866266final 
+
+
+
+Xi9614 19344 49179
+ray origin is 
+-5.47901 8.88178e-16 3.9589
+dire is 
+-0.451899 0.499583 0.739056
+origin is 
+-5.76397 0.315034 4.42494
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.48502 0.971132 0.98546final 
+
+
+
+Xi55800 8452 63644
+ray origin is 
+-5.76397 0.315034 4.42494
+dire is 
+0.169905 -0.960097 0.222139
+origin is 
+-5.70822 5.55112e-17 4.49783
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.183543 0.264289 0.51409final 
+
+
+
+Xi64882 27822 17320
+ray origin is 
+-5.70822 5.55112e-17 4.49783
+dire is 
+0.0938286 0.857736 0.505455
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi20092 12442 5287
+ray origin is 
+0 5 14
+dire is 
+-0.442033 -0.40136 -0.802195
+origin is 
+-5.50668 0 4.00655
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.971606 0.114352 0.338159final 
+
+
+
+Xi61334 10504 7494
+ray origin is 
+-5.50668 0 4.00655
+dire is 
+0.279249 0.941089 0.190713
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi1856 4724 61489
+ray origin is 
+0 5 14
+dire is 
+-0.440227 -0.399082 -0.804322
+origin is 
+-5.51549 -8.88178e-16 3.92284
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.809298 0.592612 0.769813final 
+
+
+
+Xi24570 26125 38837
+ray origin is 
+-5.51549 -8.88178e-16 3.92284
+dire is 
+0.557193 0.63827 0.531176
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi2116 47914 39267
+ray origin is 
+0 5 14
+dire is 
+-0.441712 -0.399925 -0.803088
+origin is 
+-5.52243 0 3.95953
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.413891 0.256026 0.50599final 
+
+
+
+Xi62110 58941 16778
+ray origin is 
+-5.52243 0 3.95953
+dire is 
+0.203497 0.862539 0.463265
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi38280 33360 62153
+ray origin is 
+0 5 14
+dire is 
+-0.441092 -0.398828 -0.803974
+origin is 
+-5.52985 0 3.9208
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.22108 0.0169964 0.13037final 
+
+
+
+Xi35714 57362 1113
+ray origin is 
+-5.52985 0 3.9208
+dire is 
+0.103763 0.991465 -0.0789274
+origin is 
+-4.48328 10 3.12473
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+6.11621 0.762359 0.873131final 
+
+
+
+Xi13068 60924 49961
+ray origin is 
+-4.48328 10 3.12473
+dire is 
+-0.145113 -0.487485 -0.860988
+origin is 
+-5.76397 5.69771 -4.47391
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.41595 0.40513 0.636498final 
+
+
+
+Xi20134 40733 26550
+ray origin is 
+-5.76397 5.69771 -4.47391
+dire is 
+0.771278 -0.485359 -0.411773
+origin is 
+-4.77858 5.07761 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+5.45297 0.0367614 0.191733final 
+
+
+
+Xi42192 12933 2409
+ray origin is 
+-4.77858 5.07761 -5
+dire is 
+-0.141513 -0.129365 0.981447
+origin is 
+-5.76397 4.17681 1.83406
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.30991 0.423333 0.650641final 
+
+
+
+Xi40970 37742 27743
+ray origin is 
+-5.76397 4.17681 1.83406
+dire is 
+0.759386 0.628625 -0.167822
+origin is 
+1.27051 10 0.279459
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi10319 58993 37765
+ray origin is 
+0 5 14
+dire is 
+-0.440467 -0.400252 -0.803609
+origin is 
+-5.50237 0 3.96122
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.94193 0.46416 0.681293final 
+
+
+
+Xi34081 11722 30419
+ray origin is 
+-5.50237 0 3.96122
+dire is 
+0.135126 0.732011 -0.667758
+origin is 
+-3.68899 9.82349 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+4.78226 0.302084 0.549622final 
+
+
+
+Xi52035 26065 19797
+ray origin is 
+-3.68899 9.82349 -5
+dire is 
+-0.548281 -0.0383721 0.835413
+origin is 
+-5.76397 9.67827 -1.83836
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.6217 0.098524 0.313885final 
+
+
+
+Xi58165 56906 6456
+ray origin is 
+-5.76397 9.67827 -1.83836
+dire is 
+0.949461 0.155934 0.272412
+origin is 
+-3.805 10 -1.27631
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.85983 0.698138 0.835546final 
+
+
+
+Xi10615 9637 45753
+ray origin is 
+-3.805 10 -1.27631
+dire is 
+0.63312 -0.54942 -0.54525
+origin is 
+0.518778 6.24783 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+1.13379 0.893077 0.945027final 
+
+
+
+Xi36489 45354 58528
+ray origin is 
+0.518778 6.24783 -5
+dire is 
+0.856216 -0.399965 0.326991
+origin is 
+5.76397 3.79764 -2.99685
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.89933 0.141218 0.37579final 
+
+
+
+Xi1050 58080 9254
+ray origin is 
+5.76397 3.79764 -2.99685
+dire is 
+-0.926705 0.355692 -0.121249
+origin is 
+-5.76397 8.22235 -4.50515
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.77844 0.590112 0.768188final 
+
+
+
+Xi10143 39641 38673
+ray origin is 
+-5.76397 8.22235 -4.50515
+dire is 
+0.640225 0.272876 0.718088
+origin is 
+-1.59323 10 0.172828
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi6312 355 58829
+ray origin is 
+0 5 14
+dire is 
+-0.440826 -0.399168 -0.803951
+origin is 
+-5.52181 0 3.92967
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.55411 0.261282 0.511158final 
+
+
+
+Xi37794 25545 17123
+ray origin is 
+-5.52181 0 3.92967
+dire is 
+-0.504768 0.859487 -0.0805706
+origin is 
+-5.76397 0.41234 3.89102
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.85907 0.261958 0.511818final 
+
+
+
+Xi51244 42591 17167
+ray origin is 
+-5.76397 0.41234 3.89102
+dire is 
+0.859094 0.142684 0.491527
+0 0 0
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi47302 36808 1109
+ray origin is 
+0 5 14
+dire is 
+-0.438634 -0.402572 -0.803452
+origin is 
+-5.44789 0 4.02102
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.90895 0.901961 0.949716final 
+
+
+
+Xi27632 59129 59110
+ray origin is 
+-5.44789 0 4.02102
+dire is 
+-0.347178 0.313112 0.883984
+origin is 
+-5.76397 0.285062 4.82581
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.614941 0.521122 0.721888final 
+
+
+
+Xi35882 18610 34152
+ray origin is 
+-5.76397 0.285062 4.82581
+dire is 
+0.69201 0.416465 -0.589644
+origin is 
+5.76397 7.22279 -4.99685
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.532196 0.795402 0.891853final 
+
+
+
+Xi2036 30371 52127
+ray origin is 
+5.76397 7.22279 -4.99685
+dire is 
+-0.452325 0.45255 0.768505
+origin is 
+2.98814 10 -0.280689
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.45953 0.0957817 0.309486final 
+
+
+
+Xi45518 9947 6277
+ray origin is 
+2.98814 10 -0.280689
+dire is 
+-0.227051 -0.950904 -0.210308
+origin is 
+0.600407 0 -2.49236
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.53091 0.00600615 0.0774994final 
+
+
+
+Xi57400 40571 393
+ray origin is 
+0.600407 0 -2.49236
+dire is 
+-0.0529555 0.996992 0.0565851
+origin is 
+0.0692547 10 -1.9248
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.96968 0.644231 0.80264final 
+
+
+
+Xi49365 21438 42220
+ray origin is 
+0.0692547 10 -1.9248
+dire is 
+0.137306 -0.596464 0.790809
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi20503 29907 6450
+ray origin is 
+0 5 14
+dire is 
+-0.438935 -0.401951 -0.803599
+origin is 
+-5.46006 0 4.00375
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.58706 0.507583 0.712449final 
+
+
+
+Xi42537 62618 33264
+ray origin is 
+-5.46006 0 4.00375
+dire is 
+-0.306978 0.701724 -0.642921
+origin is 
+-5.76397 0.694703 3.36727
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.14336 0.892915 0.944942final 
+
+
+
+Xi42891 5497 58518
+ray origin is 
+-5.76397 0.694703 3.36727
+dire is 
+0.327238 -0.796043 0.509147
+origin is 
+-5.47839 0 3.8116
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.62288 0.68925 0.830211final 
+
+
+
+Xi3261 46015 45170
+ray origin is 
+-5.47839 0 3.8116
+dire is 
+-0.826888 0.557449 -0.0742083
+origin is 
+-5.76397 0.192524 3.78597
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.08522 0.240409 0.490315final 
+
+
+
+Xi33343 28393 15755
+ray origin is 
+-5.76397 0.192524 3.78597
+dire is 
+0.871545 -0.456629 -0.178601
+origin is 
+-5.39651 0 3.71067
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.79731 0.768728 0.876771final 
+
+
+
+Xi51345 21674 50379
+ray origin is 
+-5.39651 0 3.71067
+dire is 
+-0.873612 0.480908 0.0743637
+origin is 
+-5.76397 0.202281 3.74194
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.02253 0.41438 0.643724final 
+
+
+
+Xi11202 54599 27156
+ray origin is 
+-5.76397 0.202281 3.74194
+dire is 
+0.765258 0.0764619 0.639167
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi27980 42708 34517
+ray origin is 
+0 5 14
+dire is 
+-0.441915 -0.400047 -0.802916
+origin is 
+-5.52329 0 3.96474
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.18949 0.751598 0.866948final 
+
+
+
+Xi45798 47635 49256
+ray origin is 
+-5.52329 0 3.96474
+dire is 
+-0.0415055 0.498399 -0.865953
+origin is 
+-5.76397 2.89012 -1.05675
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.823681 0.00937614 0.0968305final 
+
+
+
+Xi17168 31103 614
+ray origin is 
+-5.76397 2.89012 -1.05675
+dire is 
+0.995301 0.0710399 -0.0657988
+origin is 
+-2.81677 3.10048 -1.25159
+mtl id is 4
+dire is 
+-0.271009 0.942851 0.193871
+ke is 0 0 0
+mp1
+mtl.shininess 
+
+
+
+Xi909 6465 63261
+ray origin is 
+-2.81677 3.10048 -1.25159
+dire is 
+0.87471 0.477086 0.0852717
+origin is 
+5.76397 7.7806 -0.41509
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.560738 0.11592 0.340471final 
+
+
+
+Xi56719 62171 7596
+ray origin is 
+5.76397 7.7806 -0.41509
+dire is 
+-0.940255 0.181066 0.288332
+origin is 
+-5.76113 10 3.11911
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.63145 0.745245 0.863276final 
+
+
+
+Xi23649 26787 48840
+ray origin is 
+-5.76113 10 3.11911
+dire is 
+-0.523632 -0.504732 -0.686335
+origin is 
+-5.76397 9.99726 3.1154
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.67856 0.240793 0.490707final 
+
+
+
+Xi60882 39762 15780
+ray origin is 
+-5.76397 9.99726 3.1154
+dire is 
+0.871325 -0.25101 0.421648
+0 0 0
+0 0 0
+0 0 0
+shininess
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi42460 23867 25958
+ray origin is 
+0 5 14
+dire is 
+-0.4394 -0.400892 -0.803874
+origin is 
+-5.48027 -8.88178e-16 3.97393
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.355018 0.927216 0.962921final 
+
+
+
+Xi34294 2207 60766
+ray origin is 
+-5.48027 -8.88178e-16 3.97393
+dire is 
+0.334718 0.269785 0.902873
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0.0195 0.0156 0.0156
+
+
+
+Xi29856 36119 57067
+ray origin is 
+0 5 14
+dire is 
+-0.440911 -0.39927 -0.803854
+origin is 
+-5.52146 0 3.93345
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.44658 0.488962 0.699258final 
+
+
+
+Xi64602 39258 32044
+ray origin is 
+-5.52146 0 3.93345
+dire is 
+0.693871 0.714869 0.0866338
+0 0 0
+this is r 
+0.0195 0.0156 0.0156
+before plus 
+0 0 0
+
+
+
+Xi60324 61978 55894
+ray origin is 
+0 5 14
+dire is 
+-0.443257 -0.396678 -0.803847
+origin is 
+-5.58712 0 3.86777
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.37202 0.920511 0.959433final 
+
+
+
+Xi62718 39916 60326
+ray origin is 
+-5.58712 0 3.86777
+dire is 
+0.940541 0.281938 0.189456
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi20200 16688 26764
+ray origin is 
+0 5 14
+dire is 
+-0.444707 -0.397551 -0.802614
+origin is 
+-5.59308 0 3.90553
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.338155 0.105162 0.324287final 
+
+
+
+Xi21474 60179 6891
+ray origin is 
+-5.59308 0 3.90553
+dire is 
+0.107582 0.945959 0.305922
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi8812 7458 37549
+ray origin is 
+0 5 14
+dire is 
+-0.443171 -0.397519 -0.803479
+origin is 
+-5.57422 8.88178e-16 3.89383
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.719385 0.0425676 0.206319final 
+
+
+
+Xi15622 46342 2789
+ray origin is 
+-5.57422 8.88178e-16 3.89383
+dire is 
+0.135948 0.978485 0.155195
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi10800 11359 47497
+ray origin is 
+0 5 14
+dire is 
+-0.44332 -0.397094 -0.803606
+origin is 
+-5.58206 8.88178e-16 3.88141
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.10534 0.346086 0.58829final 
+
+
+
+Xi5226 4316 22681
+ray origin is 
+-5.58206 8.88178e-16 3.88141
+dire is 
+0.0213203 0.80865 -0.587904
+origin is 
+-5.31841 10 -3.38879
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.22038 0.366505 0.605397final 
+
+
+
+Xi27188 18174 24019
+ray origin is 
+-5.31841 10 -3.38879
+dire is 
+0.13234 -0.795924 -0.590755
+origin is 
+-4.95747 7.82921 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+5.75289 0.504929 0.710584final 
+
+
+
+Xi32270 1581 33091
+ray origin is 
+-4.95747 7.82921 -5
+dire is 
+-0.359406 -0.61299 0.703613
+origin is 
+-5.76397 6.45366 -3.4211
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.41465 0.923538 0.961009final 
+
+
+
+Xi9848 259 60525
+ray origin is 
+-5.76397 6.45366 -3.4211
+dire is 
+0.276517 -0.733618 -0.620759
+origin is 
+-5.06065 4.5877 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+0.0964286 0.289962 0.538481final 
+
+
+
+Xi24050 60153 19002
+ray origin is 
+-5.06065 4.5877 -5
+dire is 
+0.0518445 -0.535979 0.842638
+origin is 
+-4.61689 0 2.21254
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.50167 0.101573 0.318706final 
+
+
+
+Xi3415 47103 6656
+ray origin is 
+-4.61689 0 2.21254
+dire is 
+-0.311656 0.947854 -0.0666627
+origin is 
+-5.76397 3.48868 1.96718
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.53726 0.431663 0.65701final 
+
+
+
+Xi25536 29247 28289
+ray origin is 
+-5.76397 3.48868 1.96718
+dire is 
+0.753881 0.656641 -0.0220309
+origin is 
+1.7116 10 1.74872
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi57341 18686 50373
+ray origin is 
+0 5 14
+dire is 
+-0.44332 -0.396961 -0.803672
+origin is 
+-5.58392 0 3.87719
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.53387 0.803579 0.896426final 
+
+
+
+Xi42879 23639 52663
+ray origin is 
+-5.58392 0 3.87719
+dire is 
+-0.882179 0.443194 -0.159182
+origin is 
+-5.76397 0.0904536 3.8447
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.65281 0.50618 0.711463final 
+
+
+
+Xi36817 64588 33172
+ray origin is 
+-5.76397 0.0904536 3.8447
+dire is 
+0.702724 -0.710201 0.0423602
+origin is 
+-5.67447 0 3.8501
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.14162 0.0592642 0.243442final 
+
+
+
+Xi3443 61331 3883
+ray origin is 
+-5.67447 0 3.8501
+dire is 
+-0.221359 0.969915 0.101314
+origin is 
+-5.76397 0.392163 3.89106
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.6183 0.861748 0.928304final 
+
+
+
+Xi59621 32036 56475
+ray origin is 
+-5.76397 0.392163 3.89106
+dire is 
+0.371823 -0.425959 0.824807
+origin is 
+-5.42165 0 4.65043
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.46313 0.828654 0.910305final 
+
+
+
+Xi24231 45898 54306
+ray origin is 
+-5.42165 0 4.65043
+dire is 
+-0.287677 0.413939 -0.863653
+origin is 
+-5.76397 0.492568 3.62272
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.46215 0.00157201 0.0396485final 
+
+
+
+Xi8528 1505 103
+ray origin is 
+-5.76397 0.492568 3.62272
+dire is 
+0.999214 -0.0384136 0.00981829
+origin is 
+5.76397 0.0493892 3.736
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.83057 0.671436 0.819412final 
+
+
+
+Xi9933 14108 44003
+ray origin is 
+5.76397 0.0493892 3.736
+dire is 
+-0.573205 0.791919 -0.210475
+origin is 
+-1.43846 10 1.09134
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.72588 0.273296 0.522777final 
+
+
+
+Xi48174 46572 17910
+ray origin is 
+-1.43846 10 1.09134
+dire is 
+0.211119 -0.852469 0.478252
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi57752 23264 8803
+ray origin is 
+0 5 14
+dire is 
+-0.444051 -0.398523 -0.802495
+origin is 
+-5.5712 0 3.93165
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.659374 0.416033 0.645006final 
+
+
+
+Xi24082 7226 27265
+ray origin is 
+-5.5712 0 3.93165
+dire is 
+0.395145 0.764178 0.509797
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi12316 24203 17047
+ray origin is 
+0 5 14
+dire is 
+-0.442206 -0.398493 -0.803528
+origin is 
+-5.54848 0 3.91791
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.931983 0.0138782 0.117806final 
+
+
+
+Xi47670 34213 909
+ray origin is 
+-5.54848 0 3.91791
+dire is 
+0.094575 0.993037 0.0702409
+origin is 
+-4.59609 10 4.62525
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.39029 0.352915 0.594067final 
+
+
+
+Xi25312 43693 23128
+ray origin is 
+-4.59609 10 4.62525
+dire is 
+0.584415 -0.804416 -0.106649
+origin is 
+2.669 0 3.29945
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.78735 0.421203 0.649001final 
+
+
+
+Xi13466 61224 27603
+ray origin is 
+2.669 0 3.29945
+dire is 
+-0.647179 0.760787 0.0486028
+origin is 
+-5.76397 9.91333 3.93276
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.31461 0.526691 0.725735final 
+
+
+
+Xi32228 16249 34517
+ray origin is 
+-5.76397 9.91333 3.93276
+dire is 
+0.687974 -0.669072 0.281131
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi28990 57709 9413
+ray origin is 
+0 5 14
+dire is 
+-0.443385 -0.398632 -0.802809
+origin is 
+-5.56133 0 3.93045
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.35844 0.744665 0.86294final 
+
+
+
+Xi50472 24509 48802
+ray origin is 
+-5.56133 0 3.93045
+dire is 
+0.608816 0.505307 -0.611562
+origin is 
+3.32902 7.37884 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+4.586 0.731954 0.855543final 
+
+
+
+Xi21538 20919 47969
+ray origin is 
+3.32902 7.37884 -5
+dire is 
+-0.848719 0.107845 0.517732
+origin is 
+-5.76397 8.53426 0.546867
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.09177 0.556697 0.746121final 
+
+
+
+Xi48300 46696 36483
+ray origin is 
+-5.76397 8.53426 0.546867
+dire is 
+0.66581 0.66214 -0.343901
+origin is 
+-4.29011 10 -0.214404
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.30721 0.870456 0.932982final 
+
+
+
+Xi326 11522 57046
+ray origin is 
+-4.29011 10 -0.214404
+dire is 
+-0.857441 -0.359923 0.367764
+origin is 
+-5.76397 9.38133 0.417748
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.50849 0.344739 0.587145final 
+
+
+
+Xi10352 53325 22592
+ray origin is 
+-5.76397 9.38133 0.417748
+dire is 
+0.809482 -0.210619 0.548068
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi56490 61799 63062
+ray origin is 
+0 5 14
+dire is 
+-0.443464 -0.396056 -0.804039
+origin is 
+-5.59851 0 3.84941
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.80046 0.752715 0.867591final 
+
+
+
+Xi3188 60966 49329
+ray origin is 
+-5.59851 0 3.84941
+dire is 
+-0.402735 0.497278 0.768453
+origin is 
+-5.76397 0.2043 4.16512
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.3163 0.336166 0.579798final 
+
+
+
+Xi35406 63941 22030
+ray origin is 
+-5.76397 0.2043 4.16512
+dire is 
+0.81476 -0.534909 0.223693
+origin is 
+-5.45278 0 4.25056
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.26655 0.707908 0.841373final 
+
+
+
+Xi44216 29402 46393
+ray origin is 
+-5.45278 0 4.25056
+dire is 
+0.645813 0.540456 -0.539289
+origin is 
+5.62501 9.27057 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+4.16295 0.397451 0.630437final 
+
+
+
+Xi60978 24477 26047
+ray origin is 
+5.62501 9.27057 -5
+dire is 
+-0.537649 0.329219 0.77624
+origin is 
+4.43377 10 -3.28013
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.086339 0.407951 0.63871final 
+
+
+
+Xi36156 29186 26735
+ray origin is 
+4.43377 10 -3.28013
+dire is 
+0.0550771 -0.769448 -0.636331
+origin is 
+4.58264 7.92034 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi9385 46230 5820
+ray origin is 
+0 5 14
+dire is 
+-0.443653 -0.398819 -0.802568
+origin is 
+-5.56209 0 3.93819
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.88031 0.0191816 0.138498final 
+
+
+
+Xi35339 5777 1257
+ray origin is 
+-5.56209 0 3.93819
+dire is 
+-0.0932565 0.990363 -0.102396
+origin is 
+-5.76397 2.14397 3.71652
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.36497 0.206055 0.453933final 
+
+
+
+Xi62269 1379 13504
+ray origin is 
+-5.76397 2.14397 3.71652
+dire is 
+0.891036 0.444352 -0.0927726
+origin is 
+5.76397 7.89285 2.51626
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.35296 0.399823 0.632316final 
+
+
+
+Xi3263 52365 26202
+ray origin is 
+5.76397 7.89285 2.51626
+dire is 
+-0.774711 0.44856 -0.445665
+origin is 
+2.12469 10 0.422706
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.84693 0.524278 0.72407final 
+
+
+
+Xi38673 4135 34359
+ray origin is 
+2.12469 10 0.422706
+dire is 
+0.69664 -0.689726 0.19741
+origin is 
+5.76397 6.39684 1.45399
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.97724 0.3971 0.630159final 
+
+
+
+Xi34483 23217 26024
+ray origin is 
+5.76397 6.39684 1.45399
+dire is 
+-0.776466 -0.608187 0.164951
+origin is 
+-2.40281 0 3.18893
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi41420 51441 41417
+ray origin is 
+0 5 14
+dire is 
+-0.44279 -0.39746 -0.803718
+origin is 
+-5.57025 0 3.88932
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.773099 0.733361 0.856365final 
+
+
+
+Xi15206 35867 48061
+ray origin is 
+-5.57025 0 3.88932
+dire is 
+0.598048 0.516371 0.612943
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi16272 6635 1842
+ray origin is 
+0 5 14
+dire is 
+-0.443741 -0.399195 -0.802332
+origin is 
+-5.55795 0 3.95062
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.36024 0.170799 0.413278final 
+
+
+
+Xi39114 31782 11193
+ray origin is 
+-5.55795 0 3.95062
+dire is 
+0.404151 0.910605 0.0863751
+origin is 
+-1.11967 10 4.89916
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.06866 0.528646 0.72708final 
+
+
+
+Xi30100 21946 34645
+ray origin is 
+-1.11967 10 4.89916
+dire is 
+0.637328 -0.686552 -0.349941
+origin is 
+5.76397 2.58469 1.11952
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.96597 0.901156 0.949293final 
+
+
+
+Xi59502 11711 59058
+ray origin is 
+5.76397 2.58469 1.11952
+dire is 
+-0.314394 0.876132 -0.365443
+origin is 
+3.10304 10 -1.97347
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.78797 0.0791526 0.281341final 
+
+
+
+Xi34776 22584 5187
+ray origin is 
+3.10304 10 -1.97347
+dire is 
+0.0974285 -0.959608 0.263932
+origin is 
+4.11833 0 0.776945
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.860745 0.53529 0.731635final 
+
+
+
+Xi3666 51628 35080
+ray origin is 
+4.11833 0 0.776945
+dire is 
+0.55482 0.681696 0.476933
+origin is 
+5.76397 2.02196 2.19157
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.29099 0.969753 0.98476final 
+
+
+
+Xi16695 48927 63553
+ray origin is 
+5.76397 2.02196 2.19157
+dire is 
+-0.173916 -0.824469 0.538521
+origin is 
+5.33745 -4.44089e-16 3.51226
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.3104 0.712868 0.844315final 
+
+
+
+Xi37152 35451 46718
+ray origin is 
+5.33745 -4.44089e-16 3.51226
+dire is 
+0.623727 0.535847 -0.569063
+origin is 
+5.76397 0.366424 3.12312
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.783972 0.258288 0.50822final 
+
+
+
+Xi29917 9224 16927
+ray origin is 
+5.76397 0.366424 3.12312
+dire is 
+-0.861227 0.358853 0.359878
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi30559 59158 54885
+ray origin is 
+0 5 14
+dire is 
+-0.441817 -0.397052 -0.804455
+origin is 
+-5.56371 0 3.86966
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.3219 0.688702 0.829881final 
+
+
+
+Xi37553 52398 45134
+ray origin is 
+-5.56371 0 3.86966
+dire is 
+-0.767409 0.557941 -0.31589
+origin is 
+-5.76397 0.145597 3.78723
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.08167 0.52461 0.724299final 
+
+
+
+Xi64339 53218 34380
+ray origin is 
+-5.76397 0.145597 3.78723
+dire is 
+0.689486 -0.675473 -0.261431
+origin is 
+-5.61535 -2.77556e-17 3.73088
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.66421 0.683919 0.826994final 
+
+
+
+Xi14789 20792 44821
+ray origin is 
+-5.61535 -2.77556e-17 3.73088
+dire is 
+-0.412795 0.562211 -0.716603
+origin is 
+-5.76397 0.202411 3.47288
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.89186 0.759754 0.871639final 
+
+
+
+Xi19079 17503 49791
+ray origin is 
+-5.76397 0.202411 3.47288
+dire is 
+0.490149 0.215422 0.844599
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi48665 14028 20770
+ray origin is 
+0 5 14
+dire is 
+-0.443656 -0.398014 -0.802966
+origin is 
+-5.57338 0 3.91284
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.414482 0.148406 0.385235final 
+
+
+
+Xi55547 60148 9725
+ray origin is 
+-5.57338 0 3.91284
+dire is 
+0.15514 0.922819 0.352615
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi45997 23860 15701
+ray origin is 
+0 5 14
+dire is 
+-0.443115 -0.398356 -0.803095
+origin is 
+-5.5618 0 3.91988
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.93619 0.33058 0.574961final 
+
+
+
+Xi23215 58032 21664
+ray origin is 
+-5.5618 0 3.91988
+dire is 
+-0.19553 0.818181 0.540692
+origin is 
+-5.76397 0.845975 4.47894
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.63957 0.171349 0.413943final 
+
+
+
+Xi61057 32685 11229
+ray origin is 
+-5.76397 0.845975 4.47894
+dire is 
+0.910303 0.412964 0.0284453
+origin is 
+5.76397 6.07569 4.83917
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.49073 0.863814 0.929416final 
+
+
+
+Xi50083 57909 56610
+ray origin is 
+5.76397 6.07569 4.83917
+dire is 
+-0.369035 -0.661819 0.65254
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi33429 28415 14205
+ray origin is 
+0 5 14
+dire is 
+-0.443086 -0.398435 -0.803072
+origin is 
+-5.56033 -8.88178e-16 3.92217
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.85547 0.102704 0.320475final 
+
+
+
+Xi18391 53748 6730
+ray origin is 
+-5.56033 -8.88178e-16 3.92217
+dire is 
+-0.3172 0.947257 0.0456983
+origin is 
+-5.76397 0.608122 3.95151
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.30528 0.230993 0.480617final 
+
+
+
+Xi50153 22733 15138
+ray origin is 
+-5.76397 0.608122 3.95151
+dire is 
+0.876931 0.463775 -0.126119
+origin is 
+5.76397 6.7048 2.29358
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.0441 0.26502 0.514801final 
+
+
+
+Xi23371 21914 17368
+ray origin is 
+5.76397 6.7048 2.29358
+dire is 
+-0.85731 0.445031 0.258781
+origin is 
+-0.58392 10 4.2097
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.05479 0.1085 0.329394final 
+
+
+
+Xi18045 45102 7110
+ray origin is 
+-0.58392 10 4.2097
+dire is 
+-0.310274 -0.944193 -0.110593
+origin is 
+-3.87005 0 3.03841
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.62266 0.879562 0.93785final 
+
+
+
+Xi45567 63689 57642
+ray origin is 
+-3.87005 0 3.03841
+dire is 
+0.936589 0.347042 -0.0486196
+origin is 
+0.923282 1.77611 2.78958
+mtl id is 5
+dire is 
+-0.831028 0.111167 0.545009
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi56913 35707 43586
+ray origin is 
+0.923282 1.77611 2.78958
+dire is 
+0.950799 0.187698 -0.246478
+origin is 
+3.63143 2.31073 2.08754
+mtl id is 5
+dire is 
+0.88567 0.452744 0.103011
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+dissolve other 
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi35970 17730 22672
+ray origin is 
+0 5 14
+dire is 
+-0.442355 -0.398223 -0.80358
+origin is 
+-5.55412 0 3.91042
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.96108 0.250514 0.500514final 
+
+
+
+Xi39948 44726 16417
+ray origin is 
+-5.55412 0 3.91042
+dire is 
+-0.365773 0.865729 -0.341649
+origin is 
+-5.76397 0.496686 3.71441
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.226043 0.806997 0.89833final 
+
+
+
+Xi24486 21420 52887
+ray origin is 
+-5.76397 0.496686 3.71441
+dire is 
+0.439322 0.201336 -0.875477
+origin is 
+-3.61325 1.48234 -0.571525
+mtl id is 4
+dire is 
+-0.776736 -0.0744613 0.625409
+ke is 0 0 0
+mp1
+mtl.shininess 
+
+
+
+Xi4507 49381 49567
+ray origin is 
+-3.61325 1.48234 -0.571525
+dire is 
+-0.954616 0.0554559 0.292631
+origin is 
+-5.76397 1.60728 0.0877621
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.92816 0.480335 0.693062final 
+
+
+
+Xi11597 15090 31479
+ray origin is 
+-5.76397 1.60728 0.0877621
+dire is 
+0.720878 -0.676991 -0.148385
+origin is 
+-4.0525 -2.22045e-16 -0.264527
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.49813 0.387701 0.622656final 
+
+
+
+Xi32079 22567 25408
+ray origin is 
+-4.0525 -2.22045e-16 -0.264527
+dire is 
+-0.608419 0.782496 -0.13239
+origin is 
+-5.76397 2.20114 -0.636938
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.62319 0.900804 0.949107final 
+
+
+
+Xi28184 7232 59035
+ray origin is 
+-5.76397 2.20114 -0.636938
+dire is 
+0.314953 0.47028 0.824403
+0 0 0
+0 0 0
+0 0 0
+shininess
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi65170 55271 54667
+ray origin is 
+0 5 14
+dire is 
+-0.443143 -0.396775 -0.803862
+origin is 
+-5.58432 0 3.87006
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.76154 0.606587 0.778837final 
+
+
+
+Xi1180 20743 39753
+ray origin is 
+-5.58432 0 3.87006
+dire is 
+-0.777897 0.627226 0.0382644
+origin is 
+-5.76397 0.144858 3.8789
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.41259 0.405708 0.636952final 
+
+
+
+Xi58038 32956 26588
+ray origin is 
+-5.76397 0.144858 3.8789
+dire is 
+0.770903 -0.487087 -0.410433
+origin is 
+-5.53471 -2.77556e-17 3.75684
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.49308 0.584804 0.764725final 
+
+
+
+Xi65376 48833 38325
+ray origin is 
+-5.53471 -2.77556e-17 3.75684
+dire is 
+0.762417 0.644357 0.0593752
+origin is 
+5.76397 9.54908 4.63675
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.66126 0.490458 0.700327final 
+
+
+
+Xi25882 43449 32142
+ray origin is 
+5.76397 9.54908 4.63675
+dire is 
+-0.713822 0.430079 0.552712
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi25188 41195 46145
+ray origin is 
+0 5 14
+dire is 
+-0.442355 -0.397364 -0.804005
+origin is 
+-5.56612 0 3.88327
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.657543 0.692993 0.832462final 
+
+
+
+Xi10686 64529 45415
+ray origin is 
+-5.56612 0 3.88327
+dire is 
+0.508779 0.554082 0.658891
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi29096 57881 27976
+ray origin is 
+0 5 14
+dire is 
+-0.444761 -0.397496 -0.802611
+origin is 
+-5.59454 8.88178e-16 3.90416
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.60114 0.275132 0.52453final 
+
+
+
+Xi5282 3598 18031
+ray origin is 
+-5.59454 8.88178e-16 3.90416
+dire is 
+-0.521288 0.851392 -0.0582351
+origin is 
+-5.76397 0.276729 3.88523
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.10952 0.314019 0.560374final 
+
+
+
+Xi45356 35202 20579
+ray origin is 
+-5.76397 0.276729 3.88523
+dire is 
+0.82824 0.481003 0.287497
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi18886 30260 39816
+ray origin is 
+0 5 14
+dire is 
+-0.443984 -0.397258 -0.803159
+origin is 
+-5.5881 0 3.89123
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.641 0.070587 0.265682final 
+
+
+
+Xi58608 64705 4625
+ray origin is 
+-5.5881 0 3.89123
+dire is 
+-0.127237 0.964061 -0.233233
+origin is 
+-5.76397 1.33255 3.56885
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.01178 0.16088 0.401098final 
+
+
+
+Xi11562 27814 10543
+ray origin is 
+-5.76397 1.33255 3.56885
+dire is 
+0.916035 0.0519218 0.397724
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi4340 6618 43077
+ray origin is 
+0 5 14
+dire is 
+-0.443787 -0.397177 -0.803308
+origin is 
+-5.58676 -8.88178e-16 3.88727
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+6.2622 0.092966 0.304903final 
+
+
+
+Xi25294 40648 6092
+ray origin is 
+-5.58676 -8.88178e-16 3.88727
+dire is 
+-0.00639705 0.952383 0.304836
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi31032 28026 1471
+ray origin is 
+0 5 14
+dire is 
+-0.444286 -0.399129 -0.802064
+origin is 
+-5.5657 0 3.95231
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.86556 0.063295 0.251585final 
+
+
+
+Xi52914 6437 4148
+ray origin is 
+-5.5657 0 3.95231
+dire is 
+-0.102042 0.967835 0.229962
+origin is 
+-5.76397 1.88049 4.39913
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.47554 0.556107 0.745726final 
+
+
+
+Xi41404 2434 36445
+ray origin is 
+-5.76397 1.88049 4.39913
+dire is 
+0.666253 -0.724907 0.174977
+origin is 
+-4.03563 2.22045e-16 4.85304
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.5896 0.988242 0.994104final 
+
+
+
+Xi38102 27539 64765
+ray origin is 
+-4.03563 2.22045e-16 4.85304
+dire is 
+0.52129 0.108435 -0.846462
+origin is 
+2.03232 1.26221 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+2.89253 0.699764 0.836519final 
+
+
+
+Xi20096 49094 45859
+ray origin is 
+2.03232 1.26221 -5
+dire is 
+0.206198 0.810707 0.547938
+origin is 
+4.25472 10 0.905664
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.31741 0.535025 0.731454final 
+
+
+
+Xi6458 27541 35063
+ray origin is 
+4.25472 10 0.905664
+dire is 
+-0.675135 -0.681891 0.281457
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi33668 50449 35541
+ray origin is 
+0 5 14
+dire is 
+-0.443051 -0.397615 -0.803497
+origin is 
+-5.57135 -8.88178e-16 3.89605
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.77593 0.371753 0.609716final 
+
+
+
+Xi65502 14591 24363
+ray origin is 
+-5.57135 -8.88178e-16 3.89605
+dire is 
+-0.361343 0.79262 -0.491105
+origin is 
+-5.76397 0.422523 3.63425
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.64099 0.24556 0.49554final 
+
+
+
+Xi33992 108 16093
+ray origin is 
+-5.76397 0.422523 3.63425
+dire is 
+0.868585 -0.296806 -0.39682
+origin is 
+-4.52748 0 3.06935
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.59114 0.570197 0.755114final 
+
+
+
+Xi11458 26848 37368
+ray origin is 
+-4.52748 0 3.06935
+dire is 
+0.394983 0.655594 -0.643572
+origin is 
+0.424959 8.22008 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+1.82252 0.832116 0.912204final 
+
+
+
+Xi54860 35487 54533
+ray origin is 
+0.424959 8.22008 -5
+dire is 
+0.883456 0.227205 0.409737
+origin is 
+5.76397 9.59315 -2.52383
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.68307 0.26194 0.5118final 
+
+
+
+Xi50150 31387 17166
+ray origin is 
+5.76397 9.59315 -2.52383
+dire is 
+-0.859104 0.508578 -0.0573426
+origin is 
+5.07671 10 -2.5697
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.414379 0.109539 0.330966final 
+
+
+
+Xi62171 47975 7178
+ray origin is 
+5.07671 10 -2.5697
+dire is 
+0.133254 -0.943643 -0.302956
+origin is 
+5.76397 5.13318 -4.13219
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.88007 0.703576 0.838795final 
+
+
+
+Xi47636 38474 46109
+ray origin is 
+5.76397 5.13318 -4.13219
+dire is 
+-0.544448 -0.564643 -0.620286
+origin is 
+5.00226 4.34322 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+5.0466 0.128187 0.358032final 
+
+
+
+Xi14689 54883 8400
+ray origin is 
+5.00226 4.34322 -5
+dire is 
+-0.338221 -0.117444 0.933709
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi14723 7038 52982
+ray origin is 
+0 5 14
+dire is 
+-0.443596 -0.396769 -0.803615
+origin is 
+-5.5901 0 3.873
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.01326 0.443031 0.665606final 
+
+
+
+Xi39797 30290 29034
+ray origin is 
+-5.5901 0 3.873
+dire is 
+0.564809 0.746304 0.352168
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi15287 58882 1906
+ray origin is 
+0 5 14
+dire is 
+-0.440225 -0.399958 -0.803888
+origin is 
+-5.5034 0 3.95034
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.41126 0.508058 0.712782final 
+
+
+
+Xi35529 4621 33296
+ray origin is 
+-5.5034 0 3.95034
+dire is 
+-0.18989 0.701386 -0.687022
+origin is 
+-5.76397 0.962449 3.0076
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.73892 0.43881 0.662428final 
+
+
+
+Xi44331 57991 28757
+ray origin is 
+-5.76397 0.962449 3.0076
+dire is 
+0.749126 -0.342999 -0.566712
+origin is 
+-3.66194 -1.11022e-16 1.41742
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.4285 0.833358 0.912885final 
+
+
+
+Xi39773 63159 54614
+ray origin is 
+-3.66194 -1.11022e-16 1.41742
+dire is 
+-0.688649 0.408218 0.599266
+origin is 
+-5.76397 1.24604 3.24662
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.18459 0.872171 0.933901final 
+
+
+
+Xi16863 39022 57158
+ray origin is 
+-5.76397 1.24604 3.24662
+dire is 
+0.357532 -0.806815 0.470342
+origin is 
+-5.2118 0 3.97301
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.74639 0.151167 0.388802final 
+
+
+
+Xi41265 59289 9906
+ray origin is 
+-5.2118 0 3.97301
+dire is 
+-0.198826 0.921321 0.334119
+origin is 
+-5.76397 2.55866 4.90092
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.23997 0.131121 0.362107final 
+
+
+
+Xi54498 11328 8593
+ray origin is 
+-5.76397 2.55866 4.90092
+dire is 
+0.932137 -0.322445 0.164774
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi2924 65494 20676
+ray origin is 
+0 5 14
+dire is 
+-0.439773 -0.398867 -0.804677
+origin is 
+-5.51278 0 3.91296
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.443457 0.581422 0.762511final 
+
+
+
+Xi52742 6122 38104
+ray origin is 
+-5.51278 0 3.91296
+dire is 
+0.327166 0.646976 0.688756
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi41776 2504 45435
+ray origin is 
+0 5 14
+dire is 
+-0.441894 -0.397495 -0.804194
+origin is 
+-5.55849 0 3.88422
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.92893 0.804998 0.897217final 
+
+
+
+Xi46442 24536 52756
+ray origin is 
+-5.55849 0 3.88422
+dire is 
+0.84029 0.44159 -0.3145
+origin is 
+5.76397 5.95018 -0.353498
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.52124 0.743849 0.862467final 
+
+
+
+Xi29492 60134 48748
+ray origin is 
+5.76397 5.95018 -0.353498
+dire is 
+-0.506113 -0.595384 0.623993
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi12046 45235 56837
+ray origin is 
+0 5 14
+dire is 
+-0.441099 -0.39709 -0.80483
+origin is 
+-5.55414 0 3.86591
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.31225 0.646554 0.804086final 
+
+
+
+Xi49016 35522 42372
+ray origin is 
+-5.55414 0 3.86591
+dire is 
+-0.663705 0.594514 0.453926
+origin is 
+-5.76397 0.187954 4.00941
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+0.614036 0.623799 0.789809final 
+
+
+
+Xi7922 18057 40881
+ray origin is 
+-5.76397 0.187954 4.00941
+dire is 
+0.613352 0.455065 -0.645534
+origin is 
+2.7963 6.53908 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+5.05165 0.930262 0.964501final 
+
+
+
+Xi3068 41057 60965
+ray origin is 
+2.7963 6.53908 -5
+dire is 
+-0.909525 -0.320976 0.26408
+origin is 
+-5.76397 3.51812 -2.51453
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.7953 0.102613 0.320332final 
+
+
+
+Xi43286 54515 6724
+ray origin is 
+-5.76397 3.51812 -2.51453
+dire is 
+0.947305 0.108724 0.301317
+origin is 
+5.76397 4.8412 1.15225
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.92275 0.850835 0.922407final 
+
+
+
+Xi7360 20729 55760
+ray origin is 
+5.76397 4.8412 1.15225
+dire is 
+-0.386219 -0.325315 0.863137
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi12666 19834 55165
+ray origin is 
+0 5 14
+dire is 
+-0.442284 -0.396934 -0.804256
+origin is 
+-5.57125 0 3.86915
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.29257 0.552864 0.743548final 
+
+
+
+Xi62916 30458 36232
+ray origin is 
+-5.57125 0 3.86915
+dire is 
+-0.678982 0.668683 -0.303063
+origin is 
+-5.76397 0.189796 3.78313
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+6.16801 0.348773 0.59057final 
+
+
+
+Xi23582 10294 22857
+ray origin is 
+-5.76397 0.189796 3.78313
+dire is 
+0.806987 -0.0678695 -0.586657
+origin is 
+-3.50724 0 2.14255
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.73347 0.209897 0.458146final 
+
+
+
+Xi56072 54610 13755
+ray origin is 
+-3.50724 0 2.14255
+dire is 
+-0.458044 0.888877 0.00965806
+origin is 
+-5.76397 4.37939 2.19013
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.65351 0.85431 0.924289final 
+
+
+
+Xi3330 4792 55988
+ray origin is 
+-5.76397 4.37939 2.19013
+dire is 
+0.381693 0.433429 0.816364
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi20620 47853 16705
+ray origin is 
+0 5 14
+dire is 
+-0.44262 -0.398418 -0.803337
+origin is 
+-5.55473 0 3.91841
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.34499 0.627505 0.792152final 
+
+
+
+Xi26662 10537 41124
+ray origin is 
+-5.55473 0 3.91841
+dire is 
+-0.160009 0.610324 -0.775823
+origin is 
+-5.76397 0.798119 2.90386
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.86231 0.627729 0.792294final 
+
+
+
+Xi6736 55931 41138
+ray origin is 
+-5.76397 0.798119 2.90386
+dire is 
+0.61014 -0.783407 -0.118334
+origin is 
+-5.14237 0 2.78331
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.96542 0.112535 0.335463final 
+
+
+
+Xi53642 7602 7375
+ray origin is 
+-5.14237 0 2.78331
+dire is 
+-0.324781 0.942053 0.0839811
+origin is 
+-5.76397 1.803 2.94404
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.5744 0.773443 0.879456final 
+
+
+
+Xi15444 23157 50688
+ray origin is 
+-5.76397 1.803 2.94404
+dire is 
+0.47598 -0.572446 -0.667644
+origin is 
+-4.2648 0 0.841199
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.38622 0.479736 0.692629final 
+
+
+
+Xi60718 61982 31439
+ray origin is 
+-4.2648 0 0.841199
+dire is 
+-0.541247 0.721294 0.432189
+origin is 
+-5.76397 1.99787 2.03829
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.79451 0.291724 0.540115final 
+
+
+
+Xi17091 27535 19118
+ray origin is 
+-5.76397 1.99787 2.03829
+dire is 
+0.841591 0.526656 0.119824
+origin is 
+5.76397 9.21189 3.67961
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.86613 0.476542 0.69032final 
+
+
+
+Xi55580 41555 31230
+ray origin is 
+5.76397 9.21189 3.67961
+dire is 
+-0.723504 0.660433 -0.200924
+origin is 
+4.90059 10 3.43985
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.54349 0.590476 0.768424final 
+
+
+
+Xi18953 29416 38697
+ray origin is 
+4.90059 10 3.43985
+dire is 
+0.432683 -0.63994 0.635029
+origin is 
+5.76397 8.72306 4.70699
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.44945 0.0469354 0.216646final 
+
+
+
+Xi38298 62611 3075
+ray origin is 
+5.76397 8.72306 4.70699
+dire is 
+-0.97625 -0.160414 0.145611
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi18148 2638 49974
+ray origin is 
+0 5 14
+dire is 
+-0.44271 -0.397114 -0.803933
+origin is 
+-5.57409 8.88178e-16 3.8778
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.73315 0.490307 0.700219final 
+
+
+
+Xi57918 49805 32132
+ray origin is 
+-5.57409 8.88178e-16 3.8778
+dire is 
+0.278114 0.713928 -0.642619
+origin is 
+-1.73195 9.86293 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+3.35085 0.958349 0.978953final 
+
+
+
+Xi7720 23158 62806
+ray origin is 
+-1.73195 9.86293 -5
+dire is 
+-0.203362 0.957597 0.204086
+origin is 
+-1.76106 10 -4.97079
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.86827 0.96368 0.981672final 
+
+
+
+Xi54562 47821 63155
+ray origin is 
+-1.76106 10 -4.97079
+dire is 
+0.264986 -0.190578 0.945231
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi42412 4525 30352
+ray origin is 
+0 5 14
+dire is 
+-0.441291 -0.398174 -0.804189
+origin is 
+-5.54144 0 3.90154
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.229083 0.332576 0.576694final 
+
+
+
+Xi37446 44383 21795
+ray origin is 
+-5.54144 0 3.90154
+dire is 
+0.130958 0.81696 0.561628
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi41328 32343 61976
+ray origin is 
+0 5 14
+dire is 
+-0.440308 -0.396861 -0.805376
+origin is 
+-5.54738 0 3.85318
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.41561 0.240648 0.490559final 
+
+
+
+Xi32170 7277 15771
+ray origin is 
+-5.54738 0 3.85318
+dire is 
+-0.469113 0.871408 -0.14346
+origin is 
+-5.76397 0.402335 3.78694
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.2472 0.861911 0.928391final 
+
+
+
+Xi5492 11199 56486
+ray origin is 
+-5.76397 0.402335 3.78694
+dire is 
+0.371604 0.880205 -0.29521
+origin is 
+-1.71204 10 0.568002
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.37076 0.169366 0.411541final 
+
+
+
+Xi15182 38884 11099
+ray origin is 
+-1.71204 10 0.568002
+dire is 
+-0.387758 -0.911391 0.137876
+origin is 
+-5.76397 0.476308 2.00875
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.37057 0.186674 0.432058final 
+
+
+
+Xi17848 57435 12233
+ray origin is 
+-5.76397 0.476308 2.00875
+dire is 
+0.901846 -0.341805 -0.264279
+origin is 
+-4.50724 0 1.64048
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.385831 0.918223 0.95824final 
+
+
+
+Xi44850 44886 60176
+ray origin is 
+-4.50724 0 1.64048
+dire is 
+0.360614 0.285966 0.887796
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi46652 48211 12514
+ray origin is 
+0 5 14
+dire is 
+-0.441323 -0.398908 -0.803807
+origin is 
+-5.53163 0 3.92491
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.81905 0.99856 0.99928final 
+
+
+
+Xi64854 40481 65441
+ray origin is 
+-5.53163 0 3.92491
+dire is 
+0.968644 0.0379494 -0.245539
+origin is 
+1.40363 0.271709 2.16691
+mtl id is 5
+dire is 
+-0.526669 -0.836412 0.151772
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi64854 40481 65441
+ray origin is 
+1.40363 0.271709 2.16691
+dire is 
+0.884511 0.404459 -0.232493
+origin is 
+3.73237 1.33657 1.5548
+mtl id is 5
+dire is 
+0.956497 -0.168967 -0.237832
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi8617 64860 16278
+ray origin is 
+3.73237 1.33657 1.5548
+dire is 
+-0.708985 0.685954 0.163728
+origin is 
+1.86104 3.1471 1.98695
+mtl id is 5
+dire is 
+-0.237883 0.970536 0.0383634
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi11008 15428 55639
+ray origin is 
+1.86104 3.1471 1.98695
+dire is 
+-0.902246 0.371123 0.21959
+origin is 
+-5.76397 6.28351 3.84273
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+2.68557 0.45775 0.676572final 
+
+
+
+Xi35258 5585 29999
+ray origin is 
+-5.76397 6.28351 3.84273
+dire is 
+0.736376 0.297947 0.607435
+0 0 0
+dissolve other 
+0 0 0
+dissolve other 
+0 0 0
+
+
+
+Xi35258 5585 29999
+ray origin is 
+1.40363 0.271709 2.16691
+dire is 
+0.358589 -0.930887 -0.0697372
+origin is 
+1.5083 5.55112e-17 2.14655
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.46415 0.500323 0.707335final 
+
+
+
+Xi43012 9280 32789
+ray origin is 
+1.5083 5.55112e-17 2.14655
+dire is 
+-0.685653 0.706879 -0.173788
+origin is 
+-5.76397 7.49739 0.3033
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+1.8888 0.34071 0.583704final 
+
+
+
+Xi63582 51906 22328
+ray origin is 
+-5.76397 7.49739 0.3033
+dire is 
+0.811967 0.554438 0.182506
+origin is 
+-2.09894 10 1.12709
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.0565636 0.827981 0.909935final 
+
+
+
+Xi29000 38681 54262
+ray origin is 
+-2.09894 10 1.12709
+dire is 
+0.0514417 -0.414751 -0.90848
+origin is 
+-1.752 7.20278 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+5.50974 0.2737 0.523164final 
+
+
+
+Xi37157 14550 17937
+ray origin is 
+-1.752 7.20278 -5
+dire is 
+-0.365485 -0.374327 0.852232
+origin is 
+-5.76397 3.09375 4.35505
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+4.80268 0.218197 0.467116final 
+
+
+
+Xi19558 51093 14299
+ray origin is 
+-5.76397 3.09375 4.35505
+dire is 
+0.884196 -0.465213 -0.0421168
+origin is 
+0.116078 0 4.07497
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.34753 0.654893 0.809254final 
+
+
+
+Xi30043 2391 42919
+ray origin is 
+0.116078 0 4.07497
+dire is 
+0.577165 0.587458 -0.56725
+origin is 
+1.20852 1.11192 3.0013
+mtl id is 5
+dire is 
+-0.657915 -0.31133 0.685727
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi38669 53698 28112
+ray origin is 
+1.20852 1.11192 3.0013
+dire is 
+0.611353 0.498856 -0.614321
+origin is 
+3.09671 2.65266 1.10394
+mtl id is 5
+dire is 
+0.539645 0.663726 -0.517929
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi23823 65476 3813
+ray origin is 
+3.09671 2.65266 1.10394
+dire is 
+-0.44548 -0.800974 0.399984
+origin is 
+1.70938 0.158243 2.34958
+mtl id is 5
+dire is 
+-0.333057 -0.904666 0.265807
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+dissolve other 
+0 0 0
+dissolve other 
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+dissolve other 
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi41176 14073 20064
+ray origin is 
+0 5 14
+dire is 
+-0.440548 -0.398724 -0.804324
+origin is 
+-5.52447 0 3.91376
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.691756 0.927995 0.963325final 
+
+
+
+Xi20306 4569 60817
+ray origin is 
+-5.52447 0 3.91376
+dire is 
+0.614496 0.268338 0.741883
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi41820 51752 26870
+ray origin is 
+0 5 14
+dire is 
+-0.43959 -0.398667 -0.804876
+origin is 
+-5.51325 0 3.90541
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.34079 0.699112 0.836129final 
+
+
+
+Xi32630 1978 45817
+ray origin is 
+-5.51325 0 3.90541
+dire is 
+0.81411 0.548532 0.190623
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi51744 52454 19200
+ray origin is 
+0 5 14
+dire is 
+-0.441466 -0.39856 -0.803902
+origin is 
+-5.53826 0 3.91492
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.97844 0.547851 0.740169final 
+
+
+
+Xi3546 61116 35903
+ray origin is 
+-5.53826 0 3.91492
+dire is 
+-0.549604 0.672421 -0.495768
+origin is 
+-5.76397 0.276146 3.71132
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.68994 0.747304 0.864467final 
+
+
+
+Xi6436 20890 48975
+ray origin is 
+-5.76397 0.276146 3.71132
+dire is 
+0.502689 -0.450624 0.737728
+origin is 
+-5.45592 0 4.1634
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.433214 0.956784 0.978153final 
+
+
+
+Xi40574 52957 62703
+ray origin is 
+-5.45592 0 4.1634
+dire is 
+0.410619 0.207884 0.887793
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi54376 7300 5373
+ray origin is 
+0 5 14
+dire is 
+-0.4402 -0.399611 -0.804074
+origin is 
+-5.50785 0 3.9393
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+6.08861 0.1068 0.326803final 
+
+
+
+Xi5474 15861 6999
+ray origin is 
+-5.50785 0 3.9393
+dire is 
+-0.063188 0.945093 0.320636
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi32748 32073 28837
+ray origin is 
+0 5 14
+dire is 
+-0.442255 -0.398016 -0.803738
+origin is 
+-5.55574 0 3.9032
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.38869 0.711056 0.843241final 
+
+
+
+Xi38534 48850 46599
+ray origin is 
+-5.55574 0 3.9032
+dire is 
+0.576573 0.537535 -0.61532
+origin is 
+2.78681 7.77771 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+5.8911 0.290783 0.539243final 
+
+
+
+Xi57264 48302 19056
+ray origin is 
+2.78681 7.77771 -5
+dire is 
+-0.206053 -0.498322 0.84215
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi34282 28324 11448
+ray origin is 
+0 5 14
+dire is 
+-0.439427 -0.39938 -0.804612
+origin is 
+-5.50137 0 3.92673
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.179217 0.387987 0.622886final 
+
+
+
+Xi63412 8867 25427
+ray origin is 
+-5.50137 0 3.92673
+dire is 
+0.111035 0.782312 0.61291
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi34702 42139 46811
+ray origin is 
+0 5 14
+dire is 
+-0.439713 -0.397911 -0.805183
+origin is 
+-5.52527 0 3.88236
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.89893 0.336545 0.580125final 
+
+
+
+Xi3064 55428 22055
+ray origin is 
+-5.52527 0 3.88236
+dire is 
+0.139398 0.814527 -0.563129
+origin is 
+-3.81387 10 -3.0312
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.18964 0.585883 0.76543final 
+
+
+
+Xi32626 26574 38396
+ray origin is 
+-3.81387 10 -3.0312
+dire is 
+-0.679901 -0.64352 -0.351593
+origin is 
+-5.76397 8.15425 -4.03964
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.59213 0.703631 0.838827final 
+
+
+
+Xi41084 11162 46113
+ray origin is 
+-5.76397 8.15425 -4.03964
+dire is 
+0.544398 -0.534625 -0.64638
+origin is 
+-4.95513 7.35994 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+5.7785 0.890181 0.943494final 
+
+
+
+Xi37270 57182 58338
+ray origin is 
+-4.95513 7.35994 -5
+dire is 
+-0.456207 -0.825866 0.33139
+origin is 
+-5.76397 5.89571 -4.41246
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.96729 0.357848 0.598204final 
+
+
+
+Xi31040 62439 23451
+ray origin is 
+-5.76397 5.89571 -4.41246
+dire is 
+0.801344 -0.439694 0.405608
+origin is 
+4.98099 0 1.02621
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.97749 0.625854 0.79111final 
+
+
+
+Xi4989 64588 41015
+ray origin is 
+4.98099 0 1.02621
+dire is 
+-0.763472 0.611675 0.207278
+origin is 
+3.63604 1.07754 1.39136
+mtl id is 5
+dire is 
+0.881508 -0.330156 -0.33755
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi50943 15108 49133
+ray origin is 
+3.63604 1.07754 1.39136
+dire is 
+-0.813945 0.522003 0.254963
+origin is 
+1.11195 2.6963 2.18201
+mtl id is 5
+dire is 
+-0.707772 0.687917 0.160714
+ke is 0 0 0
+mp0.5
+mtl.dissolve 
+
+
+
+Xi31569 58505 40817
+ray origin is 
+1.11195 2.6963 2.18201
+dire is 
+-0.853778 0.426163 0.299078
+origin is 
+-5.76397 6.12841 4.59064
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.0138 0.697903 0.835406final 
+
+
+
+Xi36226 51734 45737
+ray origin is 
+-5.76397 6.12841 4.59064
+dire is 
+0.549633 -0.797744 -0.248009
+origin is 
+-1.54158 8.88178e-16 2.68539
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.27606 0.578003 0.760265final 
+
+
+
+Xi60967 64427 37879
+ray origin is 
+-1.54158 8.88178e-16 2.68539
+dire is 
+0.727482 0.649613 0.220845
+origin is 
+5.76397 6.52358 4.90317
+mtl id is 3
+dire is 
+1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.65965 0.985825 0.992887final 
+
+
+
+Xi38608 65465 64606
+ray origin is 
+5.76397 6.52358 4.90317
+dire is 
+-0.119061 -0.579759 0.806042
+0 0 0
+0 0 0
+0 0 0
+dissolve other 
+0 0 0
+dissolve other 
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi57866 34096 26327
+ray origin is 
+0 5 14
+dire is 
+-0.441134 -0.398351 -0.804187
+origin is 
+-5.53701 0 3.90603
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.0664099 0.477996 0.691372final 
+
+
+
+Xi212 59855 31325
+ray origin is 
+-5.53701 0 3.90603
+dire is 
+0.0458802 0.722499 0.689848
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi34222 61341 3228
+ray origin is 
+0 5 14
+dire is 
+-0.44062 -0.399715 -0.803792
+origin is 
+-5.51167 0 3.94544
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+2.98548 0.729667 0.854206final 
+
+
+
+Xi34584 31810 47819
+ray origin is 
+-5.51167 0 3.94544
+dire is 
+0.132812 0.519935 -0.843818
+origin is 
+-4.10371 5.51191 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+rrr
+1.47828 0.357432 0.597856final 
+
+
+
+Xi16274 44478 23424
+ray origin is 
+-4.10371 5.51191 -5
+dire is 
+0.5953 -0.055232 0.801603
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi44444 50289 4891
+ray origin is 
+0 5 14
+dire is 
+-0.439191 -0.399871 -0.804496
+origin is 
+-5.49165 0 3.94056
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.950119 0.17388 0.416989final 
+
+
+
+Xi13238 25110 11395
+ray origin is 
+-5.49165 0 3.94056
+dire is 
+0.339214 0.908912 0.242515
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi14432 2446 12648
+ray origin is 
+0 5 14
+dire is 
+-0.440436 -0.399095 -0.804201
+origin is 
+-5.51794 0 3.92469
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.70636 0.0830794 0.288235final 
+
+
+
+Xi50714 45494 5444
+ray origin is 
+-5.51794 0 3.92469
+dire is 
+-0.28823 0.95756 -0.00173914
+origin is 
+-5.76397 0.817368 3.9232
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+6.10419 0.318164 0.56406final 
+
+
+
+Xi11108 11682 20851
+ray origin is 
+-5.76397 0.817368 3.9232
+dire is 
+0.825734 -0.100424 -0.555048
+origin is 
+0.95683 0 -0.594442
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.44537 0.51601 0.718338final 
+
+
+
+Xi39614 14051 33817
+ray origin is 
+0.95683 0 -0.594442
+dire is 
+-0.692881 0.695694 -0.189542
+origin is 
+-0.914212 1.87864 -1.10628
+mtl id is 4
+dire is 
+0.940239 0.178177 0.290177
+ke is 0 0 0
+mp1
+mtl.shininess 
+
+
+
+Xi14739 46880 9588
+ray origin is 
+-0.914212 1.87864 -1.10628
+dire is 
+0.395707 0.907914 0.138231
+origin is 
+2.62541 10 0.130214
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.38666 0.828978 0.910482final 
+
+
+
+Xi16901 58821 54327
+ray origin is 
+2.62541 10 0.130214
+dire is 
+-0.862606 -0.413548 0.291358
+origin is 
+-5.76397 5.97798 2.96385
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+6.2383 0.830125 0.911112final 
+
+
+
+Xi56006 5251 54403
+ray origin is 
+-5.76397 5.97798 2.96385
+dire is 
+0.412159 -0.0408845 -0.910194
+origin is 
+-2.15774 5.62026 -5
+mtl id is 1
+dire is 
+0 0 -1
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+shininess
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi40763 33475 43589
+ray origin is 
+0 5 14
+dire is 
+-0.440732 -0.397824 -0.804669
+origin is 
+-5.53929 0 3.88662
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+1.5623 0.138917 0.372715final 
+
+
+
+Xi33773 3266 9104
+ray origin is 
+-5.53929 0 3.88662
+dire is 
+0.372702 0.927946 0.00316647
+origin is 
+-1.52287 10 3.92074
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.66069 0.37954 0.616068final 
+
+
+
+Xi17647 34301 24873
+ray origin is 
+-1.52287 10 3.92074
+dire is 
+-0.305627 -0.787693 0.534913
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi33473 21344 65494
+ray origin is 
+0 5 14
+dire is 
+-0.442377 -0.395777 -0.804775
+origin is 
+-5.58872 8.88178e-16 3.83297
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+3.76239 0.75652 0.869781final 
+
+
+
+Xi4579 18495 49579
+ray origin is 
+-5.58872 8.88178e-16 3.83297
+dire is 
+-0.505935 0.493437 -0.707495
+origin is 
+-5.76397 0.170919 3.5879
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+6.23225 0.616913 0.785438final 
+
+
+
+Xi6869 64991 40429
+ray origin is 
+-5.76397 0.170919 3.5879
+dire is 
+0.61894 -0.0399861 -0.784419
+origin is 
+-3.11833 -2.77556e-17 0.234926
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.626438 0.0896034 0.299338final 
+
+
+
+Xi14871 16284 5872
+ray origin is 
+-3.11833 -2.77556e-17 0.234926
+dire is 
+0.175491 0.954147 0.2425
+origin is 
+-1.27909 10 2.77647
+mtl id is 1
+dire is 
+0 1 0
+ke is 0 0 0
+mp0.5
+rrr
+5.45579 0.556957 0.746295final 
+
+
+
+Xi41001 47654 36500
+ray origin is 
+-1.27909 10 2.77647
+dire is 
+-0.549402 -0.665615 -0.505089
+origin is 
+-5.76397 4.56644 -1.34668
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+3.53105 0.225576 0.474948final 
+
+
+
+Xi12683 21415 14783
+ray origin is 
+-5.76397 4.56644 -1.34668
+dire is 
+0.880014 -0.18033 0.439382
+origin is 
+1.73212 3.03036 2.39604
+mtl id is 5
+dire is 
+-0.319731 0.900149 0.29581
+ke is 0 0 0
+mp0.5
+depth > 5
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi52356 2528 38302
+ray origin is 
+0 5 14
+dire is 
+-0.440236 -0.398133 -0.804787
+origin is 
+-5.52876 0 3.89298
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+4.62238 0.293196 0.541476final 
+
+
+
+Xi61662 60126 19214
+ray origin is 
+-5.52876 0 3.89298
+dire is 
+-0.539284 0.840716 -0.0486715
+origin is 
+-5.76397 0.366674 3.87175
+mtl id is 2
+dire is 
+-1 0 0
+ke is 0 0 0
+mp1
+rrr
+5.77034 0.473664 0.688232final 
+
+
+
+Xi24008 2631 31042
+ray origin is 
+-5.76397 0.366674 3.87175
+dire is 
+0.72549 -0.337685 -0.599694
+origin is 
+-4.9762 -5.55112e-17 3.22057
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+0.990989 0.165792 0.407176final 
+
+
+
+Xi11714 24605 10865
+ray origin is 
+-4.9762 -5.55112e-17 3.22057
+dire is 
+0.340631 0.91335 0.223077
+0 0 0
+0 0 0
+0 0 0
+this is r 
+0 0 0
+before plus 
+0 0 0
+
+
+
+Xi16204 46255 54239
+ray origin is 
+0 5 14
+dire is 
+-0.440653 -0.397342 -0.80495
+origin is 
+-5.54501 0 3.87083
+mtl id is 1
+dire is 
+0 -1 0
+ke is 0 0 0
+mp0.5
+rrr
+6.124 0.0460466 0.214585final 
+
+
+
+Xi54502 46343 3017
+ray origin is 
+-5.54501 0 3.87083
+dire is 
+-0.0340146 0.976705 0.211872
+0 0 0
+this is r 
+0 0 0
