@@ -20,5 +20,5 @@ class Ray{
   bool intersct_tri_aabb(const tri_aabb& tri, Ray& next)const;
 };
 
-
+bool get_cross_point(const vec& ori, const vec& dir, const vec& norm, const double& d, double& offset );
 #endif
