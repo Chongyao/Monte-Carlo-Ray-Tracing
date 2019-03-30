@@ -4,6 +4,10 @@ PROJECT(Ray_tracing)
 MESSAGE("CMAKE_BUILD_TYPE: " ${CMAKE_BUILD_TYPE})
 SET(CMAKE_CXX_STANDARD 11)
 include_directories(${PROJECT_SOURCE_DIR}/src)
+
+
+list(APPEND CMAKE_CXX_FLAGS "-fopenmp -std=c++11  -fpermissive -march=native")
+
 find_package(OpenMP)
 if (OPENMP_FOUND)
   set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")

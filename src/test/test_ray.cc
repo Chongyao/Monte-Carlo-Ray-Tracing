@@ -22,7 +22,7 @@ int main(int argc, char** argv){
     vec origin;
     origin << -5.51127, -8.88178e-16, 4.01787;
     vec dire;
-    dire << 0.194593, 0.463311, -0.8645637;
+    dire << -0.194593, -0.463311, 0.8645637;
     // cout << "origin is "  << endl << origin << endl  << "dire is " << endl << dire <<endl;
     Ray one_ray(origin, dire);
     Ray fool_ray(origin, dire);
