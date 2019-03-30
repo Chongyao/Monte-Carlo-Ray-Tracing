@@ -64,8 +64,8 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
   bool checkke = ke(0) != 0 && ke(1) != 0 && ke(2) != 0 ;
 
   if (ke(0) != 0 && ke(1) != 0 && ke(2) != 0) //find light
-    return ke;
-  
+    return vec(f.array() * ke.array());
+    // return ke;
 
   // FIXME: there is a bug that causes infinite recursive loop when mp = 1.
   if (++depth > 5)
@@ -77,8 +77,7 @@ vec radiance(const Ray &r, int depth,  unsigned short *Xi, const Scene &scene, c
 
   const vec nl = n.dot(r.dire_) < 0 ? n : n * -1;
 
-  if (mtl.dissolve < 1) {                                             // REFRACTION
-
+  if (mtl.dissolve < 1 || mtl.transmittance[0] < 1) {           // REFRACTION
     Ray reflRay(x, r.dire_ - n * 2 * n.dot(r.dire_));
 
     bool into = n.dot(nl) > 0;
@@ -228,6 +227,9 @@ int main(int argc, char *argv[]) {
   for(size_t m_id = 0; m_id < num_model; ++m_id){
     KD_forest[m_id] = unique_ptr<KD_tree_tris>(new KD_tree_tris(scene.models[m_id]->tris_, height, 0, nullptr, true));
   }
+  for(const auto& mtl : scene.materials)
+    cout << mtl.dissolve <<endl;
+
 
   cout << "[INFO]>>>>>>>>>>>>>>>>>>>forest<<<<<<<<<<<<<<<<<<" << endl;
     
