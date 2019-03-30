@@ -6,7 +6,7 @@ SET(CMAKE_CXX_STANDARD 11)
 include_directories(${PROJECT_SOURCE_DIR}/src)
 
 
-list(APPEND CMAKE_CXX_FLAGS "-fopenmp -std=c++11 -O3 -fpermissive -march=native")
+list(APPEND CMAKE_CXX_FLAGS "-fopenmp -std=c++11  -fpermissive -march=native")
 
 find_package(OpenMP)
 if (OPENMP_FOUND)

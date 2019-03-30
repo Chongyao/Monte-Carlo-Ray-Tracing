@@ -63,34 +63,33 @@ bool Ray::intersect_aabb(const aabb& bd_box_)const {
       return false;
   };
 
-  vec cross_point;
+
+  vec cross_point, normal;
   for(size_t dim = 0; dim < 3; ++dim){
-    vec normal;
-    double para_d;
-    double offset;
-
-
-    normal = vec::Zero();
-    normal(dim) = 1;
-    para_d = - bd_box_.low_bd_(dim);
-    if(get_cross_point(origin_, dire_, normal, para_d, offset)){
+    if(fabs(dire_(dim)) < 1e-5)
+      continue;
+    normal = vec::Zero();{
+      normal(dim) = 1;
+    }
+    
+    double para_d = - bd_box_.low_bd_(dim);
+    double offset = (- para_d - origin_(dim)) * (1 / dire_(dim));
+    if(offset >0){
       cross_point = origin_ + offset * dire_;
       if(check_inside(cross_point, bd_box_, dim)){
         is_inter = true;
         break;
-      }
+      }      
     }
 
-
-    normal = vec::Zero();
-    normal(dim) = 1;
     para_d = - bd_box_.up_bd_(dim);
-    if(get_cross_point(origin_, dire_, normal, para_d, offset)){
+    offset = (- para_d - origin_(dim)) * (1 / dire_(dim));
+    if(offset >0){
       cross_point = origin_ + offset * dire_;
       if(check_inside(cross_point, bd_box_, dim)){
         is_inter = true;
         break;
-      }
+      }      
     }
   }
   return is_inter;
