@@ -1,5 +1,5 @@
 callgrind*
-*.ppm
+
 #emacs
 *~
 build
