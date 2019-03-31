@@ -1,8 +1,8 @@
 # Ray Tracing算法　说明文档
 ##	结果展示
-![room](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/1.ppm)
-![cup](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/2.ppm)
-![VeachMIS](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/3.ppm)
+![room](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/1.png)
+![cup](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/2.png)
+![VeachMIS](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/3.png)
 ## 开发环境
 ### 系统信息
 系统 | 信息
