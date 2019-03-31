@@ -1,8 +1,11 @@
 # Ray Tracing算法　说明文档
 ##	结果展示
-![room](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/1.png)
-![cup](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/2.png)
+### VeachMIS
 ![VeachMIS](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/3.png)
+### Treasure in Room
+![room](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/1.png)
+### Coffee
+![cup](https://raw.githubusercontent.com/Chongyao/Monte-Carlo-Ray-Tracing/master/res/2.png)
 ## 开发环境
 ### 系统信息
 系统 | 信息
